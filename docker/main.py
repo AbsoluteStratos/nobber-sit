@@ -18,7 +18,7 @@ client_secret = os.environ.get("TWITCH_API_CLIENT_SECRET", None)
 twitch_downloader_path = os.environ.get(
     "TWITCH_DOWNLOADER_PATH", "./TwitchDownloaderCLI"
 )
-emote_stats_path = os.environ.get("EMOTE_STAT_JSON", None)
+emote_stats_path = os.environ.get("EMOTE_STAT_JSON", "../src/public/emote-stats.json")
 emote_stats_config = os.environ.get("EMOTE_STAT_CONFIG", "config.json")
 
 
@@ -163,13 +163,15 @@ if __name__ == "__main__":
         emote_stats = EmoteStateContainer()
 
     vod_list = get_current_vods(emote_config["channel_name"])
-
+    updated = False
     # Loop over vods
     for vod in vod_list:
         # Skip if already in stat JSON
-        if vod.id in emote_stats:
+        if vod.id in emote_stats.data:
+            logger.info(f"VOD id {vod.id} already in json")
             continue
 
+        logger.warning(f"VOD id {vod.id} is new")
         chat_data = get_chat_json(vod.id)
         # with open("raw_output.json", "w") as file:
         #     json.dump(chat_data, file)
@@ -179,6 +181,11 @@ if __name__ == "__main__":
             emote_config["emotes"],
         )
         emote_stats.data[vod.id] = VodEmoteStat(info=vod, emotes=emote_info)
+        logger.success("VOD emote information parsed")
 
-    with open("output.json", "w", encoding="utf-8") as file:
-        file.write(emote_stats.model_dump_json(indent=2))
+    if updated:
+        with open(emote_stats_path, "w", encoding="utf-8") as file:
+            file.write(emote_stats.model_dump_json(indent=2))
+        logger.success("VOD stat json updated")
+    else:
+        logger.success("No new VODs, carry on :)")

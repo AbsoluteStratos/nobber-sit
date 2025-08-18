@@ -1,0 +1,114 @@
+---
+---
+
+<div id="chart-container">
+    <div id="bar-scroll" aria-label="ohhnosSit usage per day">
+    <svg id="emote-bar" height="600"></svg>
+    </div>
+</div>
+
+<style>
+    #chart-container {
+        display: flex;
+        justify-content: center; /* horizontal center */
+        align-items: center;     /* vertical center */
+        height: 100%;           /* full viewport height */
+        width: 100%;            /* full viewport width */
+    }
+
+  #bar-scroll {
+    overflow-x: auto;
+    padding: 8px 0;
+  }
+  #emote-bar { 
+    display: block;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 12px; /* optional tweak */
+    }
+  /* optional: keep the container from growing too tall on small screens */
+  @media (max-width: 600px) { #emote-bar { height: 280px; } }
+</style>
+
+<script type="module">
+  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+
+  (async () => {
+    const res = await fetch('/emote-stats.json');
+    const raw = await res.json();
+
+    // Build date -> total uses for "ohhnosSit"
+    const totals = new Map();
+    for (const v of Object.values(raw?.data ?? {})) {
+      const date = new Date(v.info.created).toISOString().slice(0,10); // YYYY-MM-DD
+      const sit = (v.emotes ?? []).find(e => e.name === 'ohhnosSit');
+      const count = sit
+        ? (sit.users ?? []).reduce((s,u) => {
+            const n = typeof u.use_index === 'number' ? u.use_index : (+u.use_index || 1);
+            return s + n;
+          }, 0)
+        : 0;
+      if (count > 0) totals.set(date, (totals.get(date) || 0) + count);
+    }
+
+    const data = Array.from(totals, ([date, count]) => ({ date, count }))
+      .sort((a,b) => a.date.localeCompare(b.date));
+
+    // Guard: nothing to draw
+    if (!data.length) return;
+
+    const margin = { top: 16, right: 20, bottom: 80, left: 48 };
+    const barW = 28, gap = 8;
+    const innerW = data.length * (barW + gap);
+    const innerH = 240;
+
+    const svg = d3.select('#emote-bar')
+      .attr('width', innerW + margin.left + margin.right)
+      .attr('height', innerH + margin.top + margin.bottom);
+
+    const g = svg.append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const x = d3.scaleBand()
+      .domain(data.map(d => d.date))
+      .range([0, innerW])
+      .paddingInner(gap / (barW + gap))
+      .paddingOuter(0.2);
+
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(data, d => d.count) || 1]).nice()
+      .range([innerH, 0]);
+
+    // Axes
+    g.append('g')
+      .attr('transform', `translate(0,${innerH})`)
+      .call(d3.axisBottom(x).tickSizeOuter(0))
+      .selectAll('text')
+        .attr('transform', 'rotate(-45)')
+        .style('text-anchor', 'end')
+        .attr('dx', '-0.8em')
+        .attr('dy', '0.15em');
+
+    g.append('g')
+      .call(d3.axisLeft(y).ticks(6));
+
+    // Bars
+    g.selectAll('rect')
+      .data(data)
+      .join('rect')
+        .attr('x', d => x(d.date))
+        .attr('y', d => y(d.count))
+        .attr('width', x.bandwidth() || barW)
+        .attr('height', d => innerH - y(d.count))
+        .attr('fill', 'salmon')
+        .append('title')
+          .text(d => `${d.date}: ${d.count}`);
+
+    // Optional axis labels
+    // g.append('text')
+    //   .attr('x', -margin.left + 4)
+    //   .attr('y', -6)
+    //   .attr('font-weight', 600)
+    //   .text('ohhnosSit total uses');
+
+  })();
+</script>
