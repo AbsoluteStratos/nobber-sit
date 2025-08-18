@@ -18,7 +18,7 @@ client_secret = os.environ.get("TWITCH_API_CLIENT_SECRET", None)
 twitch_downloader_path = os.environ.get(
     "TWITCH_DOWNLOADER_PATH", "./TwitchDownloaderCLI"
 )
-emote_stats_path = os.environ.get("EMOTE_STAT_JSON", "../src/public/emote-stats.json")
+emote_stats_path = os.environ.get("EMOTE_STAT_JSON", "../ux/public/emote-stats.json")
 emote_stats_config = os.environ.get("EMOTE_STAT_CONFIG", "config.json")
 
 
@@ -151,6 +151,59 @@ def get_emote_users(
     return emote_info
 
 
+def post_process(emote_stats: EmoteStateContainer, write_path: str) -> None:
+    """Runs some post processing statistic functions that are easier to do here
+    instead of client side in d3
+
+    Args:
+        emote_stats (EmoteStateContainer): Emote stat JSON object
+        write_path (str): Write location to write post process JSONs
+    """
+    if not os.path.exists(write_path):
+        logger.error(f"Write path {write_path} does not exist")
+        raise FileNotFoundError("In valid write path")
+
+    # First get totals for each day
+    daily_emote_totals = {}
+    user_totals = {}
+    for vod in emote_stats.data.values():
+        date_key = vod.info.created.strftime("%Y-%m-%d")
+
+        for emote in vod.emotes:
+            emote_count = 0
+            for user in emote.users:
+                emote_count += user.use_index
+
+                if emote.name not in user_totals:
+                    user_totals[emote.name] = {}
+                if user.display_name not in user_totals[emote.name]:
+                    user_totals[emote.name][user.display_name] = user.use_index
+                else:
+                    user_totals[emote.name][user.display_name] += user.use_index
+
+            if emote.name not in daily_emote_totals:
+                daily_emote_totals[emote.name] = {}
+            if date_key not in daily_emote_totals[emote.name]:
+                daily_emote_totals[emote.name][date_key] = emote_count
+            else:
+                daily_emote_totals[emote.name][date_key] += emote_count
+
+    # Sort for readability
+    for key in daily_emote_totals.keys():
+        daily_emote_totals[key] = dict(sorted(daily_emote_totals[key].items()))
+    for key in user_totals.keys():
+        user_totals[key] = dict(
+            sorted(user_totals[key].items(), key=lambda item: item[1], reverse=True)
+        )
+
+    # Save to file
+    with open(os.path.join(write_path, "daily_emote_totals.json"), "w") as file:
+        json.dump(daily_emote_totals, file, indent=2)
+
+    with open(os.path.join(write_path, "user_emote_totals.json"), "w") as file:
+        json.dump(user_totals, file, indent=2)
+
+
 if __name__ == "__main__":
     with open(emote_stats_config, "r", encoding="utf-8") as file:
         emote_config = json.load(file)
@@ -171,7 +224,8 @@ if __name__ == "__main__":
             logger.info(f"VOD id {vod.id} already in json")
             continue
 
-        logger.warning(f"VOD id {vod.id} is new")
+        updated = True
+        logger.info(f"VOD id {vod.id} is new")
         chat_data = get_chat_json(vod.id)
         # with open("raw_output.json", "w") as file:
         #     json.dump(chat_data, file)
@@ -186,6 +240,7 @@ if __name__ == "__main__":
     if updated:
         with open(emote_stats_path, "w", encoding="utf-8") as file:
             file.write(emote_stats.model_dump_json(indent=2))
+        post_process(emote_stats, os.path.dirname(emote_stats_path))
         logger.success("VOD stat json updated")
     else:
         logger.success("No new VODs, carry on :)")
