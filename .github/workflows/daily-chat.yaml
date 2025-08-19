@@ -16,9 +16,9 @@ jobs:
       TWITCH_API_CLIENT_ID: ${{ secrets.TWITCH_API_CLIENT_ID }}
       TWITCH_API_CLIENT_SECRET: ${{ secrets.TWITCH_API_CLIENT_SECRET }}
 
-    container:
-      image: python:3.12-slim   # docker container with Python + git
-      options: --entrypoint /bin/bash
+    # container:
+    #   image: python:3.12-slim   # docker container with Python + git
+    #   options: --entrypoint /bin/bash
 
     steps:
       - name: Checkout repo
