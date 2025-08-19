@@ -4,6 +4,7 @@ on:
   schedule:
     # 10PM PST = 06:00 UTC next day
     - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
   update-chat-data:
