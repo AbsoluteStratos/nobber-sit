@@ -106,9 +106,13 @@
     function filterRange(emote_data, range) {
       const dates = Object.keys(emote_data);
       const values =  Object.values(emote_data);
-      if (range === "all") return { dates, values};
-      const cutoff = new Date(dates[dates.length - 1]);
-      cutoff.setDate(cutoff.getDate() - parseInt(range));
+      let cutoff = new Date();
+      if (range === "all"){
+        cutoff = new Date(2025, 5, 1); // Month starts at 0
+      } else {
+        cutoff.setDate(cutoff.getDate() - parseInt(range))
+      }
+
       const filtered = dates
         .map((d, i) => ({ date: new Date(d), value: values[i] }))
         .filter(d => d.date >= cutoff);
