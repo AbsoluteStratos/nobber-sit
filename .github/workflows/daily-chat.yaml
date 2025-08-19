@@ -6,6 +6,9 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-chat-data:
     runs-on: ubuntu-latest
@@ -41,12 +44,13 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
+          git add ux/public
+
+          if git diff-index --quiet HEAD --; then
             echo "No changes to commit. Exiting gracefully ^_^"
             exit 0
           fi
 
-          git add ux/public
           ts=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           git commit -m "Chat data ${ts}" || echo "No changes to commit"
           git push origin main
