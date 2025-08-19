@@ -1,114 +1,182 @@
 ---
 ---
 
-<div id="chart-container">
-    <div id="bar-scroll" aria-label="ohhnosSit usage per day">
-    <svg id="emote-bar" height="600"></svg>
-    </div>
+<div class="chart-container">
+  <div class="controls">
+    <label>
+      Emote:
+      <select id="emote-select"></select>
+    </label>
+
+    <label>
+      Range:
+      <select id="range-select">
+        <option value="30">Past 30 days</option>
+        <option value="60">Past 60 days</option>
+        <option value="all">All days</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="chart"></div>
+
+  <div id="top-users" class="top-users"></div>
 </div>
 
 <style>
-    #chart-container {
-        display: flex;
-        justify-content: center; /* horizontal center */
-        align-items: center;     /* vertical center */
-        height: 100%;           /* full viewport height */
-        width: 100%;            /* full viewport width */
-    }
-
-  #bar-scroll {
-    overflow-x: auto;
-    padding: 8px 0;
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
-  #emote-bar { 
-    display: block;
+
+  .controls {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 20px;
+    font-family: sans-serif;
+  }
+
+  select {
+    padding: 4px 8px;
+    border: 3px solid salmon;
+    color: salmon;
+    border-radius: 8px;
+  }
+
+  #chart {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+  }
+
+  .top-users {
+    margin-top: 20px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 12px; /* optional tweak */
-    }
-  /* optional: keep the container from growing too tall on small screens */
-  @media (max-width: 600px) { #emote-bar { height: 280px; } }
+    text-align: left;
+    width: 100%;
+    max-width: 900px;
+    background: #fff5f5;
+    border: 3px solid salmon;
+    color: salmon;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .top-users h3 {
+    margin: 0 0 10px 0;
+    color: salmon;
+  }
+  .top-users ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .top-users li {
+    margin: 4px 0;
+  }
 </style>
 
-<script type="module">
-  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+<!-- Load Plotly from CDN -->
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
 
-  (async () => {
-    const res = await fetch('/emote-stats.json');
-    const raw = await res.json();
+<script client:load>
+  async function initChart() {
+    const res = await fetch("/daily_emote_totals.json");
+    const rawTotals = await res.json();
 
-    // Build date -> total uses for "ohhnosSit"
-    const totals = new Map();
-    for (const v of Object.values(raw?.data ?? {})) {
-      const date = new Date(v.info.created).toISOString().slice(0,10); // YYYY-MM-DD
-      const sit = (v.emotes ?? []).find(e => e.name === 'ohhnosSit');
-      const count = sit
-        ? (sit.users ?? []).reduce((s,u) => {
-            const n = typeof u.use_index === 'number' ? u.use_index : (+u.use_index || 1);
-            return s + n;
-          }, 0)
-        : 0;
-      if (count > 0) totals.set(date, (totals.get(date) || 0) + count);
+    const res2 = await fetch("/user_emote_totals.json");
+    const rawUsers = await res2.json();
+
+    // Extract dates & emote keys
+    // const dates = raw.dates;
+    const emotes = Object.keys(rawTotals);
+
+    // Populate emote dropdown
+    const emoteSelect = document.getElementById("emote-select");
+    emotes.forEach(e => {
+      const opt = document.createElement("option");
+      opt.value = e;
+      opt.textContent = e;
+      emoteSelect.appendChild(opt);
+    });
+
+    // Function to filter by range
+    function filterRange(emote_data, range) {
+      const dates = Object.keys(emote_data);
+      const values =  Object.values(emote_data);
+      if (range === "all") return { dates, values};
+      const cutoff = new Date(dates[dates.length - 1]);
+      cutoff.setDate(cutoff.getDate() - parseInt(range));
+      const filtered = dates
+        .map((d, i) => ({ date: new Date(d), value: values[i] }))
+        .filter(d => d.date >= cutoff);
+      return {
+        dates: filtered.map(d => d.date.toISOString().slice(0, 10)),
+        values: filtered.map(d => d.value)
+      };
     }
 
-    const data = Array.from(totals, ([date, count]) => ({ date, count }))
-      .sort((a,b) => a.date.localeCompare(b.date));
+    // Initial plot
+    let currentEmote = "ohhnosSit";
+    let currentRange = "30";
+    document.getElementById("range-select").value = currentRange;
+    emoteSelect.value = currentEmote;
 
-    // Guard: nothing to draw
-    if (!data.length) return;
+    function updateTopUsers() {
+      const container = document.getElementById("top-users");
+      const userData = rawUsers[currentEmote] || {};
+      const sorted = Object.entries(userData)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
 
-    const margin = { top: 16, right: 20, bottom: 80, left: 48 };
-    const barW = 28, gap = 8;
-    const innerW = data.length * (barW + gap);
-    const innerH = 240;
+      container.innerHTML = `
+        <h3>Top 5 users for ${currentEmote}</h3>
+        <ul>
+          ${sorted.map(([user, count]) => `<li>${user}: ${count}</li>`).join("")}
+        </ul>
+      `;
+    }
 
-    const svg = d3.select('#emote-bar')
-      .attr('width', innerW + margin.left + margin.right)
-      .attr('height', innerH + margin.top + margin.bottom);
+    function updateChart() {
+      const values = rawTotals[currentEmote];
+      const { dates: x, values: y } = filterRange(values, currentRange);
 
-    const g = svg.append('g')
-      .attr('transform', `translate(${margin.left},${margin.top})`);
+      const trace = {
+        x,
+        y,
+        type: "bar",
+        marker: { color: "salmon" }
+      };
 
-    const x = d3.scaleBand()
-      .domain(data.map(d => d.date))
-      .range([0, innerW])
-      .paddingInner(gap / (barW + gap))
-      .paddingOuter(0.2);
+      const layout = {
+        title: `${currentEmote} usage`,
+        xaxis: { title: "Stream Date (EST)"},
+        yaxis: { title: "Count" },
+        margin: { t: 50, b: 80 },
+        transition: { duration: 500, easing: "cubic-in-out" }
+      };
 
-    const y = d3.scaleLinear()
-      .domain([0, d3.max(data, d => d.count) || 1]).nice()
-      .range([innerH, 0]);
+      Plotly.react("chart", [trace], layout, { responsive: true });
+    }
 
-    // Axes
-    g.append('g')
-      .attr('transform', `translate(0,${innerH})`)
-      .call(d3.axisBottom(x).tickSizeOuter(0))
-      .selectAll('text')
-        .attr('transform', 'rotate(-45)')
-        .style('text-anchor', 'end')
-        .attr('dx', '-0.8em')
-        .attr('dy', '0.15em');
+    // Event listeners
+    emoteSelect.addEventListener("change", (e) => {
+      currentEmote = e.target.value;
+      updateChart();
+      updateTopUsers();
+    });
 
-    g.append('g')
-      .call(d3.axisLeft(y).ticks(6));
+    document.getElementById("range-select").addEventListener("change", (e) => {
+      currentRange = e.target.value;
+      updateChart();
+    });
 
-    // Bars
-    g.selectAll('rect')
-      .data(data)
-      .join('rect')
-        .attr('x', d => x(d.date))
-        .attr('y', d => y(d.count))
-        .attr('width', x.bandwidth() || barW)
-        .attr('height', d => innerH - y(d.count))
-        .attr('fill', 'salmon')
-        .append('title')
-          .text(d => `${d.date}: ${d.count}`);
+    // Draw first chart
+    updateChart();
+    updateTopUsers();
+  }
 
-    // Optional axis labels
-    // g.append('text')
-    //   .attr('x', -margin.left + 4)
-    //   .attr('y', -6)
-    //   .attr('font-weight', 600)
-    //   .text('ohhnosSit total uses');
-
-  })();
+  initChart();
 </script>

@@ -3,8 +3,10 @@ import os
 import subprocess
 import tempfile
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any
+from zoneinfo import ZoneInfo
+
 
 from dotenv import load_dotenv
 from loguru import logger
@@ -167,7 +169,11 @@ def post_process(emote_stats: EmoteStateContainer, write_path: str) -> None:
     daily_emote_totals = {}
     user_totals = {}
     for vod in emote_stats.data.values():
-        date_key = vod.info.created.strftime("%Y-%m-%d")
+        date_key = (
+            vod.info.created.replace(tzinfo=timezone.utc)
+            .astimezone(ZoneInfo("US/Eastern"))
+            .strftime("%Y-%m-%d")
+        )
 
         for emote in vod.emotes:
             emote_count = 0
@@ -240,7 +246,7 @@ if __name__ == "__main__":
     if updated:
         with open(emote_stats_path, "w", encoding="utf-8") as file:
             file.write(emote_stats.model_dump_json(indent=2))
-        post_process(emote_stats, os.path.dirname(emote_stats_path))
+            post_process(emote_stats, os.path.dirname(emote_stats_path))
         logger.success("VOD stat json updated")
     else:
         logger.success("No new VODs, carry on :)")
