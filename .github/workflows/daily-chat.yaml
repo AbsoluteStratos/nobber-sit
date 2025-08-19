@@ -1,0 +1,48 @@
+name: Daily Chat Data Update
+
+on:
+  schedule:
+    # 10PM PST = 06:00 UTC next day
+    - cron: "0 6 * * *"
+
+jobs:
+  update-chat-data:
+    runs-on: ubuntu-latest
+    env:
+      TWITCH_API_CLIENT_ID: ${{ secrets.TWITCH_API_CLIENT_ID }}
+      TWITCH_API_CLIENT_SECRET: ${{ secrets.TWITCH_API_CLIENT_SECRET }}
+
+    container:
+      image: python:3.12-slim   # docker container with Python + git
+      options: --entrypoint /bin/bash
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies (git + uv)
+        run: |
+          apt-get update && apt-get install -y git curl
+          # Install uv (Rust-based package manager for Python)
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          export PATH="$HOME/.cargo/bin:$PATH"
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Run UV project
+        working-directory: docker
+        run: |
+          uv venv .venv
+          uv run main.py
+
+      - name: Commit ux/public changes
+        run: |
+          cd ux/public
+          cd ../..   # back to repo root
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add ux/public
+          ts=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          git commit -m "Chat data ${ts}" || echo "No changes to commit"
+          git push origin main
