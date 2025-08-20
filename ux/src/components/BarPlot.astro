@@ -105,9 +105,7 @@
   }
 </style>
 
-<!-- Load Plotly from CDN -->
-<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
-
+<script src="/scripts/plotly.2.27.0.js" defer></script>
 <script client:load>
   async function initChart() {
     const res = await fetch("/daily_emote_totals.json");
