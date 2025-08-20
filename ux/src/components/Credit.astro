@@ -1,0 +1,22 @@
+---
+interface Props {
+	name: string;
+}
+const {name} = Astro.props;
+---
+<div id="credit-text">
+    made by: {name}
+</div>
+
+<style>
+    #credit-text{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: salmon;
+        opacity: 50%;
+        font-weight: italic;
+        margin: 2px;
+    }
+</style>
