@@ -27,7 +27,8 @@ All commands are run from the root of the project, from a terminal:
 
 For the Github Workflow automation there are three items needed:
 
-- `GH_PAT`: Github personal access token for pushing to repo
+- `GH_PAT`: Github personal access token for this repo scope, with contents (read and write) permissions. This is needed so the update commits from the workflow will trigger the gh-pages
+pipelines.
 - `TWITCH_API_CLIENT_ID`: API client ID gotten from registering a [twitch app to the API](https://dev.twitch.tv/console/apps)
 - `TWITCH_API_CLIENT_SECRET`: API client ID gotten from registering a [twitch app to the API](https://dev.twitch.tv/console/apps)
 
