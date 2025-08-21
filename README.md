@@ -21,3 +21,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+
+### Automation
+
+For the Github Workflow automation there are three items needed:
+
+- `GH_PAT`: Github personal access token for pushing to repo
+- `TWITCH_API_CLIENT_ID`: API client ID gotten from registering a [twitch app to the API](https://dev.twitch.tv/console/apps)
+- `TWITCH_API_CLIENT_SECRET`: API client ID gotten from registering a [twitch app to the API](https://dev.twitch.tv/console/apps)
+
+> For the twitch app, the oauth url can be `https://localhost`
