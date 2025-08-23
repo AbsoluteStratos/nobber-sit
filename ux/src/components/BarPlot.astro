@@ -75,7 +75,8 @@
   }
 
   .top-users {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: left;
     max-width: 80%;
@@ -88,7 +89,7 @@
 
   @media (max-width: 600px) {
     .top-users {
-      margin-top: 60px;
+      margin-top: 10px;
     }
   }
   .top-users h3 {
@@ -107,106 +108,116 @@
 
 <script type="module">
   async function initChart() {
-  const res = await fetch("/daily_emote_totals.json");
-  const rawTotals = await res.json();
+    const res = await fetch("/daily_emote_totals.json");
+    const rawTotals = await res.json();
 
-  const res2 = await fetch("/user_emote_totals.json");
-  const rawUsers = await res2.json();
+    const res2 = await fetch("/user_emote_totals.json");
+    const rawUsers = await res2.json();
 
-  // Extract dates & emote keys
-  // const dates = raw.dates;
-  const emotes = Object.keys(rawTotals);
+    // Extract dates & emote keys
+    // const dates = raw.dates;
+    const emotes = Object.keys(rawTotals);
 
-  // Populate emote dropdown
-  const emoteSelect = document.getElementById("emote-select");
-  emotes.forEach(e => {
-      const opt = document.createElement("option");
-      opt.value = e;
-      opt.textContent = e;
-      emoteSelect.appendChild(opt);
-  });
+    // Populate emote dropdown
+    const emoteSelect = document.getElementById("emote-select");
+    emotes.forEach(e => {
+        const opt = document.createElement("option");
+        opt.value = e;
+        opt.textContent = e;
+        emoteSelect.appendChild(opt);
+    });
 
-  // Function to filter by range
-  function filterRange(emote_data, range) {
-      const dates = Object.keys(emote_data);
-      const values =  Object.values(emote_data);
-      let cutoff = new Date();
-      if (range === "all"){
-      cutoff = new Date(2025, 5, 1); // Month starts at 0
-      } else {
-      cutoff.setDate(cutoff.getDate() - parseInt(range))
-      }
+    // Function to filter by range
+    function filterRange(emote_data, range) {
+        const dates = Object.keys(emote_data);
+        const values =  Object.values(emote_data);
+        let cutoff = new Date();
+        if (range === "all"){
+        cutoff = new Date(2025, 5, 1); // Month starts at 0
+        } else {
+        cutoff.setDate(cutoff.getDate() - parseInt(range))
+        }
 
-      const filtered = dates
-      .map((d, i) => ({ date: new Date(d), value: values[i] }))
-      .filter(d => d.date >= cutoff);
-      return {
-      dates: filtered.map(d => d.date.toISOString().slice(0, 10)),
-      values: filtered.map(d => d.value)
-      };
-  }
+        const filtered = dates
+        .map((d, i) => ({ date: new Date(d), value: values[i] }))
+        .filter(d => d.date >= cutoff);
+        return {
+        dates: filtered.map(d => d.date.toISOString().slice(0, 10)),
+        values: filtered.map(d => d.value)
+        };
+    }
 
-  // Initial plot
-  let currentEmote = "ohhnosSit";
-  let currentRange = "30";
-  document.getElementById("range-select").value = currentRange;
-  emoteSelect.value = currentEmote;
+    // Initial plot
+    let currentEmote = "ohhnosSit";
+    let currentRange = "30";
+    document.getElementById("range-select").value = currentRange;
+    emoteSelect.value = currentEmote;
 
-  function updateTopUsers() {
-      const container = document.getElementById("top-users");
-      const userData = rawUsers[currentEmote] || {};
-      const sorted = Object.entries(userData)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 5);
+    function updateTopUsers() {
+        const container = document.getElementById("top-users");
+        const userData = rawUsers[currentEmote] || {};
+        const sorted = Object.entries(userData)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
 
-      container.innerHTML = `
-      <h3>Top 5 users for ${currentEmote}</h3>
-      <ul>
-          ${sorted.map(([user, count]) => `<li>${user}: ${count}</li>`).join("")}
-      </ul>
-      `;
-  }
+        container.innerHTML = `
+        <h3>Top 5 users for ${currentEmote}</h3>
+        <ul>
+            ${sorted.map(([user, count]) => `<li>${user}: ${count}</li>`).join("")}
+        </ul>
+        `;
+    }
 
-  function updateChart() {
-      const values = rawTotals[currentEmote];
-      const { dates: x, values: y } = filterRange(values, currentRange);
+    function updateChart() {
+        const values = rawTotals[currentEmote];
+        const { dates: x, values: y } = filterRange(values, currentRange);
 
-      const trace = {
-      x,
-      y,
-      type: "bar",
-      marker: { color: "salmon" }
-      };
-      console.log(currentEmote)
-      var  layout = {
-      xaxis: { title: "Stream Date (EST)",  linewidth: 2 },
-      yaxis: { title: "Count",  linewidth: 2,  gridcolor: "rgba(255,0,0,0.25)", gridwidth: 2},
-      margin: { t: 50, b: 80 },
-      paper_bgcolor: 'rgba(0,0,0,0)',
-      plot_bgcolor: 'rgba(0,0,0,0)',
-      transition: { duration: 500, easing: "cubic-in-out" },
-      };
-      Plotly.react("chart", [trace], layout, { responsive: true });
-      Plotly.update('chart', {}, { 'title.text': currentEmote+" Uses" });
+        const trace = {
+        x,
+        y,
+        type: "bar",
+        marker: { color: "salmon" }
+        };
+        console.log(currentEmote)
+        var  layout = {
+        xaxis: { title: "Stream Date (EST)",  linewidth: 2 },
+        yaxis: { title: "Count",  linewidth: 2,  gridcolor: "rgba(255,0,0,0.25)", gridwidth: 2},
+        margin: { t: 50, b: 80 },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        transition: { duration: 500, easing: "cubic-in-out" },
+        };
+        Plotly.react("chart", [trace], layout, { responsive: true });
+        Plotly.update('chart', {}, { 'title.text': currentEmote+" Uses" });
+    }
 
-  }
+    // Event listeners
+    emoteSelect.addEventListener("change", (e) => {
+        currentEmote = e.target.value;
+        updateChart();
+        updateTopUsers();
+    });
 
-  // Event listeners
-  emoteSelect.addEventListener("change", (e) => {
-      currentEmote = e.target.value;
-      updateChart();
-      updateTopUsers();
-  });
+    document.getElementById("range-select").addEventListener("change", (e) => {
+        currentRange = e.target.value;
+        updateChart();
+    });
 
-  document.getElementById("range-select").addEventListener("change", (e) => {
-      currentRange = e.target.value;
-      updateChart();
-  });
-
-  // Draw first chart
-  updateChart();
-  updateTopUsers();
+    // Draw first chart
+    updateChart();
+    updateTopUsers();
   }
 
   initChart();
+
+
+  // This function will be called after a 1-second delay
+  // Hopefully fixes the mobile resize issue
+  function triggerResize() {
+      window.dispatchEvent(new Event("resize"));
+      
+      console.log('Window resize event triggered.');
+  }
+  // Call the function after a 1000-millisecond (2-second) delay
+  setTimeout(triggerResize, 100);
 </script>
