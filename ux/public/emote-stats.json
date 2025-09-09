@@ -14196,6 +14196,303 @@
           ]
         }
       ]
+    },
+    "2561842360": {
+      "info": {
+        "id": "2561842360",
+        "title": "stressful little hangout, no talking【💢LIVE】",
+        "created": "2025-09-09T02:14:39",
+        "published": "2025-09-09T02:14:39"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "radiodemon",
+              "use_index": 3
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 17
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            },
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            },
+            {
+              "display_name": "CyProVT",
+              "use_index": 1
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 14
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 5
+            },
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 3
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 2
+            },
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPet",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPout",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSad",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 17
+            },
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 3
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            },
+            {
+              "display_name": "BudderZilla",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosThink",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 3
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 17
+            },
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 4
+            }
+          ]
+        }
+      ]
     }
   }
 }
