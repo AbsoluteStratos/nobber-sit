@@ -27624,6 +27624,245 @@
           ]
         }
       ]
+    },
+    "2600630375": {
+      "info": {
+        "id": "2600630375",
+        "title": "NOBATHON DAY 30: clearing bosses, night stream soon!【💢LIVE】!merch",
+        "created": "2025-10-25T02:09:18",
+        "published": "2025-10-25T02:09:18"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": [
+            {
+              "display_name": "goldyos",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            },
+            {
+              "display_name": "goldyos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "goldyos",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 14
+            },
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            },
+            {
+              "display_name": "goldyos",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": [
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            },
+            {
+              "display_name": "goldyos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": [
+            {
+              "display_name": "talsett",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            },
+            {
+              "display_name": "Night_of_Solace",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 2
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 3
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 4
+            },
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            },
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 14
+            },
+            {
+              "display_name": "talsett",
+              "use_index": 1
+            },
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "goldyos",
+              "use_index": 1
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 5
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
