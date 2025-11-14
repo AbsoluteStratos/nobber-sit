@@ -32932,6 +32932,320 @@
           ]
         }
       ]
+    },
+    "2617486812": {
+      "info": {
+        "id": "2617486812",
+        "title": "CHARIZARD ultra premium collection... no more collecting?【💢LIVE】!merch",
+        "created": "2025-11-13T18:30:44",
+        "published": "2025-11-13T18:30:44"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": [
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCry",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": [
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": [
+            {
+              "display_name": "pedroburitto69",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGun",
+          "users": [
+            {
+              "display_name": "pedroburitto69",
+              "use_index": 2
+            },
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "lagiahope",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 4
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            },
+            {
+              "display_name": "talsett",
+              "use_index": 1
+            },
+            {
+              "display_name": "IlaNovaStar",
+              "use_index": 1
+            },
+            {
+              "display_name": "Hayden_ch",
+              "use_index": 1
+            },
+            {
+              "display_name": "MrSatanSan",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 1
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 11
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 2
+            },
+            {
+              "display_name": "Hayden_ch",
+              "use_index": 1
+            },
+            {
+              "display_name": "MrSatanSan",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": [
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 2
+            },
+            {
+              "display_name": "Hayden_ch",
+              "use_index": 1
+            },
+            {
+              "display_name": "MrSatanSan",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 2
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            },
+            {
+              "display_name": "Hayden_ch",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPet",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 3
+            },
+            {
+              "display_name": "talsett",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPout",
+          "users": [
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSad",
+          "users": [
+            {
+              "display_name": "MidnightInferno",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSit",
+          "users": []
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": [
+            {
+              "display_name": "siam_769",
+              "use_index": 5
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 14
+            },
+            {
+              "display_name": "siam_769",
+              "use_index": 7
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            },
+            {
+              "display_name": "talsett",
+              "use_index": 1
+            },
+            {
+              "display_name": "ShiroIBeni",
+              "use_index": 2
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
