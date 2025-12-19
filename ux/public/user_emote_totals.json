@@ -56,8 +56,8 @@
   },
   "ohhnosGasp": {
     "ohhnoss": 168,
-    "ShiroIBeni": 88,
-    "radiodemon": 74,
+    "ShiroIBeni": 89,
+    "radiodemon": 75,
     "tofuMatori": 22,
     "megamitee": 22,
     "goldyos": 18,
@@ -95,13 +95,13 @@
   },
   "ohhnosHeart": {
     "tofuMatori": 75,
-    "siam_769": 61,
+    "siam_769": 62,
     "ohhnoss": 55,
     "goldyos": 55,
     "megamitee": 43,
     "IlaNovaStar": 42,
     "MrSatanSan": 32,
-    "MidnightInferno": 24,
+    "MidnightInferno": 25,
     "advent128": 19,
     "plamsa_pistolier": 16,
     "talsett": 14,
@@ -141,7 +141,7 @@
     "tofuMatori": 58,
     "radiodemon": 15,
     "megamitee": 13,
-    "plamsa_pistolier": 11,
+    "plamsa_pistolier": 12,
     "siam_769": 11,
     "goldyos": 6,
     "advent128": 5,
@@ -171,7 +171,7 @@
     "pedroburitto69": 1
   },
   "ohhnosPat": {
-    "ohhnoss": 1629,
+    "ohhnoss": 1640,
     "SarcasticSa1nt": 82,
     "goldyos": 64,
     "MrSatanSan": 50,
@@ -221,7 +221,7 @@
     "Hayden_ch": 1
   },
   "ohhnosPet": {
-    "talsett": 58,
+    "talsett": 59,
     "tofuMatori": 25,
     "Night_of_Solace": 25,
     "megamitee": 22,
@@ -231,8 +231,8 @@
     "FairestPhoenix": 8,
     "MrSatanSan": 8,
     "radiodemon": 7,
+    "BudderZilla": 7,
     "avidtrout": 6,
-    "BudderZilla": 6,
     "advent128": 6,
     "emberxylic": 4,
     "dusty_dawi": 3,
@@ -264,7 +264,7 @@
     "TonyS117_": 1
   },
   "ohhnosSad": {
-    "MidnightInferno": 66,
+    "MidnightInferno": 67,
     "megamitee": 25,
     "ShiroIBeni": 21,
     "ohhnoss": 9,
@@ -371,15 +371,15 @@
     "plamsa_pistolier": 1
   },
   "ohhnosYay": {
-    "ohhnoss": 1684,
+    "ohhnoss": 1695,
     "megamitee": 149,
-    "siam_769": 113,
+    "siam_769": 114,
     "ShiroIBeni": 85,
     "tofuMatori": 63,
     "goldyos": 45,
+    "plamsa_pistolier": 40,
     "radiodemon": 39,
-    "plamsa_pistolier": 39,
-    "talsett": 31,
+    "talsett": 32,
     "IlaNovaStar": 7,
     "STSBrown": 5,
     "codefell": 4,
@@ -440,7 +440,7 @@
   "ohhnosDead": {
     "megamitee": 58,
     "Absolute_Stratos": 23,
-    "tofuMatori": 16,
+    "tofuMatori": 17,
     "codefell": 15,
     "goldyos": 14,
     "ShiroIBeni": 8,
@@ -484,7 +484,7 @@
   "ohhnosAaa": {
     "ShiroIBeni": 40,
     "megamitee": 40,
-    "tofuMatori": 24,
+    "tofuMatori": 25,
     "goldyos": 17,
     "siam_769": 9,
     "ohhnoss": 3,
