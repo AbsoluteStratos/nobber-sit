@@ -35,8 +35,8 @@
   },
   "ohhnosDrink": {
     "ShiroIBeni": 64,
-    "megamitee": 56,
-    "tofuMatori": 22,
+    "megamitee": 57,
+    "tofuMatori": 23,
     "goldyos": 14,
     "ohhnoss": 10,
     "SarcasticSa1nt": 9,
@@ -57,7 +57,7 @@
   "ohhnosGasp": {
     "ohhnoss": 169,
     "ShiroIBeni": 92,
-    "radiodemon": 75,
+    "radiodemon": 76,
     "megamitee": 25,
     "tofuMatori": 22,
     "goldyos": 18,
@@ -71,7 +71,7 @@
     "avidtrout": 1
   },
   "ohhnosHappy": {
-    "megamitee": 95,
+    "megamitee": 97,
     "tofuMatori": 38,
     "goldyos": 26,
     "DarthAwesome13a": 19,
@@ -103,15 +103,15 @@
     "MrSatanSan": 33,
     "MidnightInferno": 27,
     "advent128": 19,
+    "talsett": 17,
     "plamsa_pistolier": 16,
-    "talsett": 16,
     "ShiroIBeni": 15,
     "FairestPhoenix": 13,
     "radiodemon": 11,
     "SarcasticSa1nt": 10,
     "lagiahope": 5,
+    "marvincraft1": 4,
     "codefell": 3,
-    "marvincraft1": 3,
     "nero_kuniklos": 3,
     "EmeraldGemstone1359": 3,
     "avidtrout": 3,
@@ -141,7 +141,7 @@
   },
   "ohhnosHug": {
     "tofuMatori": 58,
-    "radiodemon": 15,
+    "radiodemon": 16,
     "megamitee": 14,
     "plamsa_pistolier": 12,
     "siam_769": 11,
@@ -170,10 +170,11 @@
     "Razorxrpmx": 1,
     "CalaArt": 1,
     "lagiahope": 1,
-    "SarcasticSa1nt": 1
+    "SarcasticSa1nt": 1,
+    "negishiru": 1
   },
   "ohhnosPat": {
-    "ohhnoss": 1686,
+    "ohhnoss": 1698,
     "SarcasticSa1nt": 82,
     "goldyos": 64,
     "ShiroIBeni": 52,
@@ -281,9 +282,9 @@
   },
   "ohhnosSit": {
     "ohhnoss": 157,
-    "megamitee": 99,
+    "megamitee": 100,
     "ShiroIBeni": 78,
-    "Absolute_Stratos": 75,
+    "Absolute_Stratos": 76,
     "radiodemon": 32,
     "tofuMatori": 24,
     "SarcasticSa1nt": 21,
@@ -303,7 +304,7 @@
     "siam_769": 1
   },
   "ohhnosSleep": {
-    "megamitee": 85,
+    "megamitee": 87,
     "ohhnoss": 74,
     "tofuMatori": 46,
     "ShiroIBeni": 40,
@@ -366,22 +367,22 @@
     "ohhnoss": 15,
     "goldyos": 14,
     "radiodemon": 8,
-    "megamitee": 6,
+    "megamitee": 7,
     "abba5886": 2,
     "pedroburitto69": 2,
     "irooka": 1,
     "plamsa_pistolier": 1
   },
   "ohhnosYay": {
-    "ohhnoss": 1740,
+    "ohhnoss": 1752,
     "megamitee": 150,
-    "siam_769": 117,
+    "siam_769": 118,
     "ShiroIBeni": 88,
     "tofuMatori": 64,
     "goldyos": 45,
-    "plamsa_pistolier": 42,
+    "plamsa_pistolier": 43,
     "radiodemon": 40,
-    "talsett": 33,
+    "talsett": 34,
     "IlaNovaStar": 7,
     "STSBrown": 5,
     "codefell": 4,
@@ -389,17 +390,17 @@
     "FairestPhoenix": 3,
     "bored_465": 3,
     "YinRzu": 3,
+    "negishiru": 3,
     "Hayden_ch": 3,
+    "vougz": 2,
     "ShortKeikiKun": 2,
     "marvincraft1": 2,
     "CalaArt": 2,
-    "negishiru": 2,
     "avidtrout": 2,
     "Phat_Sparx": 2,
     "EmeraldGemstone1359": 2,
     "BudderZilla": 2,
     "Snoonzinz": 2,
-    "vougz": 1,
     "nero_kuniklos": 1,
     "sleir_": 1,
     "MrSatanSan": 1,
@@ -423,7 +424,7 @@
     "TempyTheTempix": 1
   },
   "ohhnosCheer": {
-    "megamitee": 88,
+    "megamitee": 89,
     "goldyos": 59,
     "SarcasticSa1nt": 17,
     "tofuMatori": 12,
@@ -440,7 +441,7 @@
     "BudderZilla": 1
   },
   "ohhnosDead": {
-    "megamitee": 61,
+    "megamitee": 62,
     "Absolute_Stratos": 23,
     "tofuMatori": 17,
     "codefell": 15,
@@ -484,7 +485,7 @@
     "BudderZilla": 1
   },
   "ohhnosAaa": {
-    "megamitee": 41,
+    "megamitee": 42,
     "ShiroIBeni": 40,
     "tofuMatori": 28,
     "goldyos": 17,
@@ -523,9 +524,9 @@
     "goldyos": 2,
     "plamsa_pistolier": 2,
     "SarcasticSa1nt": 2,
+    "tofuMatori": 2,
     "Gigavillain21": 1,
-    "YaBoyChipsAhoy": 1,
-    "tofuMatori": 1
+    "YaBoyChipsAhoy": 1
   },
   "ohhnosGive": {
     "tofuMatori": 15,
