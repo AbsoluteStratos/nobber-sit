@@ -3,7 +3,7 @@ import os
 import subprocess
 import tempfile
 
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import Any
 from zoneinfo import ZoneInfo
 
@@ -165,27 +165,47 @@ def post_process(emote_stats: EmoteStateContainer, write_path: str) -> None:
         logger.error(f"Write path {write_path} does not exist")
         raise FileNotFoundError("In valid write path")
 
+    # Calculate date cutoffs for 7 and 30 days
+    now = datetime.now(ZoneInfo("US/Eastern"))
+    cutoff_7d = now - timedelta(days=7)
+    cutoff_30d = now - timedelta(days=30)
+
     # First get totals for each day
     daily_emote_totals = {}
-    user_totals = {}
+    user_totals_7d = {}
+    user_totals_30d = {}
     for vod in emote_stats.data.values():
-        date_key = (
-            vod.info.created.replace(tzinfo=timezone.utc)
-            .astimezone(ZoneInfo("US/Eastern"))
-            .strftime("%Y-%m-%d")
+        vod_date = vod.info.created.replace(tzinfo=timezone.utc).astimezone(
+            ZoneInfo("US/Eastern")
         )
+        date_key = vod_date.strftime("%Y-%m-%d")
+
+        # Check if VOD is within 7 or 30 day window
+        is_within_7d = vod_date >= cutoff_7d
+        is_within_30d = vod_date >= cutoff_30d
 
         for emote in vod.emotes:
             emote_count = 0
             for user in emote.users:
                 emote_count += user.use_index
 
-                if emote.name not in user_totals:
-                    user_totals[emote.name] = {}
-                if user.display_name not in user_totals[emote.name]:
-                    user_totals[emote.name][user.display_name] = user.use_index
-                else:
-                    user_totals[emote.name][user.display_name] += user.use_index
+                # Add to 7-day totals if within window
+                if is_within_7d:
+                    if emote.name not in user_totals_7d:
+                        user_totals_7d[emote.name] = {}
+                    if user.display_name not in user_totals_7d[emote.name]:
+                        user_totals_7d[emote.name][user.display_name] = user.use_index
+                    else:
+                        user_totals_7d[emote.name][user.display_name] += user.use_index
+
+                # Add to 30-day totals if within window
+                if is_within_30d:
+                    if emote.name not in user_totals_30d:
+                        user_totals_30d[emote.name] = {}
+                    if user.display_name not in user_totals_30d[emote.name]:
+                        user_totals_30d[emote.name][user.display_name] = user.use_index
+                    else:
+                        user_totals_30d[emote.name][user.display_name] += user.use_index
 
             if emote.name not in daily_emote_totals:
                 daily_emote_totals[emote.name] = {}
@@ -197,9 +217,13 @@ def post_process(emote_stats: EmoteStateContainer, write_path: str) -> None:
     # Sort for readability
     for key in daily_emote_totals.keys():
         daily_emote_totals[key] = dict(sorted(daily_emote_totals[key].items()))
-    for key in user_totals.keys():
-        user_totals[key] = dict(
-            sorted(user_totals[key].items(), key=lambda item: item[1], reverse=True)
+    for key in user_totals_7d.keys():
+        user_totals_7d[key] = dict(
+            sorted(user_totals_7d[key].items(), key=lambda item: item[1], reverse=True)
+        )
+    for key in user_totals_30d.keys():
+        user_totals_30d[key] = dict(
+            sorted(user_totals_30d[key].items(), key=lambda item: item[1], reverse=True)
         )
 
     # Save to file
@@ -207,7 +231,7 @@ def post_process(emote_stats: EmoteStateContainer, write_path: str) -> None:
         json.dump(daily_emote_totals, file, indent=2)
 
     with open(os.path.join(write_path, "user_emote_totals.json"), "w") as file:
-        json.dump(user_totals, file, indent=2)
+        json.dump({"7d": user_totals_7d, "30d": user_totals_30d}, file, indent=2)
 
 
 if __name__ == "__main__":
@@ -243,7 +267,7 @@ if __name__ == "__main__":
         emote_stats.data[vod.id] = VodEmoteStat(info=vod, emotes=emote_info)
         logger.success("VOD emote information parsed")
 
-    if updated:
+    if updated or True:
         with open(emote_stats_path, "w", encoding="utf-8") as file:
             file.write(emote_stats.model_dump_json(indent=2))
             post_process(emote_stats, os.path.dirname(emote_stats_path))

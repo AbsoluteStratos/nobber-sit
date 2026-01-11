@@ -1,5 +1,9 @@
 ---
 ---
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="chart-container">
   <div class="controls">
@@ -20,7 +24,20 @@
 
   <div id="chart"></div>
 
-  <div id="top-users" class="top-users"></div>
+  <div id="top-users" class="top-users">
+    <ul class="nav nav-tabs" id="userTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="tab-7d" data-bs-toggle="tab" data-bs-target="#content-7d" type="button" role="tab" aria-controls="content-7d" aria-selected="true" data-tab="7d">7 Day Top Users</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-30d" data-bs-toggle="tab" data-bs-target="#content-30d" type="button" role="tab" aria-controls="content-30d" aria-selected="false" data-tab="30d">30 Day Top Users</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="userTabsContent">
+      <div class="tab-pane fade show active" id="content-7d" role="tabpanel" aria-labelledby="tab-7d"></div>
+      <div class="tab-pane fade" id="content-30d" role="tabpanel" aria-labelledby="tab-30d"></div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -75,16 +92,60 @@
   }
 
   .top-users {
-    margin-top: 5px;
+    width: 400px;
     margin-bottom: 10px;
+  }
+
+  .nav-tabs {
+    margin-bottom: 0;
+    padding-left: 0;
+    border-bottom: 3px solid salmon;
+    width: 100%;
+  }
+
+  .nav-tabs .nav-item {
+    margin-bottom: 0;
+  }
+
+  .nav-tabs .nav-link {
+    border: 3px solid salmon;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    color: salmon;
+    background:rgb(255, 225, 225);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: medium;
+    padding: 10px 20px;
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+  }
+
+  .nav-tabs .nav-link:hover {
+    background: #ffe0e0;
+    border-color: salmon;
+    color: salmon;
+  }
+
+  .nav-tabs .nav-link.active {
+    background: #fff5f5;
+    color: salmon;
+    border-bottom: 3px solid #fff5f5;
+    z-index: 1;
+  }
+
+  .tab-content {
+    width: 100%;
+    min-height: 280px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: left;
-    max-width: 80%;
     background: #fff5f5;
     border: 3px solid salmon;
+    border-top: none;
     color: salmon;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
     padding: 20px;
+    margin: 0;
   }
 
   @media (max-width: 600px) {
@@ -150,23 +211,55 @@
     // Initial plot
     let currentEmote = "ohhnosSit";
     let currentRange = "30";
+    let currentTab = "7d";
     document.getElementById("range-select").value = currentRange;
     emoteSelect.value = currentEmote;
 
     function updateTopUsers() {
-        const container = document.getElementById("top-users");
-        const userData = rawUsers[currentEmote] || {};
-        const sorted = Object.entries(userData)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 5);
+        // Update both tab panes
+        const container7d = document.getElementById("content-7d");
+        const container30d = document.getElementById("content-30d");
+        
+        const userData7d = (rawUsers["7d"] && rawUsers["7d"][currentEmote]) || {};
+        const userData30d = (rawUsers["30d"] && rawUsers["30d"][currentEmote]) || {};
+        
+        const sorted7d = Object.entries(userData7d)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 5);
+        const sorted30d = Object.entries(userData30d)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 5);
 
-        container.innerHTML = `
+        container7d.innerHTML = `
         <h3>Top 5 users for ${currentEmote}</h3>
         <ul>
-            ${sorted.map(([user, count]) => `<li>${user}: ${count}</li>`).join("")}
+            ${sorted7d.length > 0 
+                ? sorted7d.map(([user, count]) => `<li>${user}: ${count}</li>`).join("")
+                : "<li>No data available</li>"
+            }
+        </ul>
+        `;
+
+        container30d.innerHTML = `
+        <h3>Top 5 users for ${currentEmote}</h3>
+        <ul>
+            ${sorted30d.length > 0 
+                ? sorted30d.map(([user, count]) => `<li>${user}: ${count}</li>`).join("")
+                : "<li>No data available</li>"
+            }
         </ul>
         `;
     }
+
+    // Bootstrap tab event listeners
+    const tabList = document.querySelectorAll('#userTabs button[data-bs-toggle="tab"]');
+    tabList.forEach(tabEl => {
+        tabEl.addEventListener('shown.bs.tab', function (event) {
+            const clickedTab = event.target;
+            currentTab = clickedTab.dataset.tab;
+            // Content is already updated in updateTopUsers
+        });
+    });
 
     function updateChart() {
         const values = rawTotals[currentEmote];
