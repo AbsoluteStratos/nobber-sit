@@ -45253,6 +45253,306 @@
           ]
         }
       ]
+    },
+    "2673097350": {
+      "info": {
+        "id": "2673097350",
+        "title": "chibi time. fixing pen pressure...【💢LIVE】",
+        "created": "2026-01-18T03:13:20",
+        "published": "2026-01-18T03:13:20"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            },
+            {
+              "display_name": "SirPieTTV",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": [
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 3
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosThink",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            }
+          ]
+        }
+      ]
+    },
+    "2673055346": {
+      "info": {
+        "id": "2673055346",
+        "title": "chibi time. fixing pen pressure...【💢LIVE】",
+        "created": "2026-01-18T02:19:00",
+        "published": "2026-01-18T02:19:00"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "DarthAwesome13a",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 4
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": []
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 4
+            }
+          ]
+        }
+      ]
     }
   }
 }
