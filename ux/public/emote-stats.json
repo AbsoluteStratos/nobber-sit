@@ -46319,6 +46319,122 @@
           ]
         }
       ]
+    },
+    "2682981648": {
+      "info": {
+        "id": "2682981648",
+        "title": "waiting room, dangan 3 part 2 【💢LIVE】",
+        "created": "2026-01-29T00:19:57",
+        "published": "2026-01-29T00:19:57"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 7
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": []
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": []
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 7
+            }
+          ]
+        }
+      ]
     }
   }
 }
