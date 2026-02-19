@@ -1,35 +1,18 @@
 {
   "7d": {
-    "ohhnosDrink": {
-      "tofuMatori": 1
-    },
-    "ohhnosGun": {
-      "tofuMatori": 1
-    },
-    "ohhnosHug": {
-      "advent128": 1,
-      "pedroburitto69": 1
-    },
-    "ohhnosPat": {
-      "ohhnoss": 36,
-      "MrSatanSan": 5,
-      "MidnightInferno": 1
-    },
-    "ohhnosPeek": {
-      "tofuMatori": 1
-    },
-    "ohhnosSleep": {
-      "advent128": 2
-    },
-    "ohhnosYay": {
-      "ohhnoss": 36,
-      "Snoonzinz": 2
-    },
     "ohhnosHeart": {
       "advent128": 2,
       "MrSatanSan": 2,
       "radiodemon": 1,
       "BudderZilla": 1,
+      "MidnightInferno": 1
+    },
+    "ohhnosHug": {
+      "pedroburitto69": 1
+    },
+    "ohhnosPat": {
+      "ohhnoss": 24,
+      "MrSatanSan": 5,
       "MidnightInferno": 1
     },
     "ohhnosPats": {
@@ -43,6 +26,12 @@
     "ohhnosSit": {
       "Absolute_Stratos": 2,
       "Gigavillain21": 1
+    },
+    "ohhnosSleep": {
+      "advent128": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 24
     },
     "ohhnosCry": {
       "Absolute_Stratos": 1
