@@ -51989,6 +51989,253 @@
           ]
         }
       ]
+    },
+    "2738350534": {
+      "info": {
+        "id": "2738350534",
+        "title": "dangan 3 part 14【💢LIVE】",
+        "created": "2026-04-02T21:57:19",
+        "published": "2026-04-02T21:57:19"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": [
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": []
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": []
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            }
+          ]
+        }
+      ]
+    },
+    "2738065770": {
+      "info": {
+        "id": "2738065770",
+        "title": "10m quests【💢LIVE】",
+        "created": "2026-04-02T15:26:56",
+        "published": "2026-04-02T15:26:56"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": [
+            {
+              "display_name": "SarcasticSa1nt",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": []
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": []
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            }
+          ]
+        }
+      ]
     }
   }
 }
