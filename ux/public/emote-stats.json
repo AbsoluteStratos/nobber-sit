@@ -52236,6 +52236,146 @@
           ]
         }
       ]
+    },
+    "2741906811": {
+      "info": {
+        "id": "2741906811",
+        "title": "chibi chat, need to update my ducks【💢LIVE】",
+        "created": "2026-04-07T02:35:55",
+        "published": "2026-04-07T02:35:55"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": [
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": []
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            }
+          ]
+        }
+      ]
     }
   }
 }
