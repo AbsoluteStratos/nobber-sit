@@ -1,23 +1,13 @@
 {
   "7d": {
     "ohhnosPat": {
-      "ohhnoss": 24
+      "ohhnoss": 17
     },
     "ohhnosPet": {
-      "SarcasticSa1nt": 2,
-      "tofuMatori": 1
-    },
-    "ohhnosSleep": {
-      "plamsa_pistolier": 2,
-      "AkanaMirai": 1,
-      "Absolute_Stratos": 1
-    },
-    "ohhnosSus": {
-      "Absolute_Stratos": 1
+      "SarcasticSa1nt": 2
     },
     "ohhnosYay": {
-      "ohhnoss": 24,
-      "plamsa_pistolier": 1
+      "ohhnoss": 17
     },
     "ohhnosHeart": {
       "tofuMatori": 1
@@ -30,6 +20,10 @@
     },
     "ohhnosGun": {
       "radiodemon": 1
+    },
+    "ohhnosSleep": {
+      "Absolute_Stratos": 1,
+      "plamsa_pistolier": 1
     }
   },
   "30d": {
