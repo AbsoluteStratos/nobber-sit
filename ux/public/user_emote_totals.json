@@ -1,90 +1,78 @@
 {
   "7d": {
     "ohhnosHeart": {
-      "IlaNovaStar": 2,
+      "peepoangry": 4,
+      "IlaNovaStar": 1,
       "plamsa_pistolier": 1,
       "Rinz1erx": 1
     },
     "ohhnosHug": {
       "SarcasticSa1nt": 1,
-      "tofuMatori": 1,
-      "BudderZilla": 1
+      "tofuMatori": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 37,
+      "ohhnoss": 36,
       "IlaNovaStar": 1,
       "MidnightInferno": 1,
-      "Hayden_ch": 1
+      "Hayden_ch": 1,
+      "SirPieTTV": 1
     },
     "ohhnosPet": {
       "plamsa_pistolier": 2,
+      "peepoangry": 2,
       "IlaNovaStar": 1,
-      "SarcasticSa1nt": 1
+      "SarcasticSa1nt": 1,
+      "BudderZilla": 1
     },
     "ohhnosSleep": {
+      "megamitee": 2,
       "SarcasticSa1nt": 1,
-      "megamitee": 1,
-      "advent128": 1
+      "peepoangry": 1
     },
     "ohhnosThink": {
       "Absolute_Stratos": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 37,
-      "megamitee": 1,
-      "IlaNovaStar": 1
+      "ohhnoss": 36
     },
     "ohhnosAaa": {
       "megamitee": 1
     },
     "ohhnosDrink": {
-      "megamitee": 1,
-      "tofuMatori": 1
+      "megamitee": 2
     },
     "ohhnosGasp": {
-      "ohhnoss": 2,
-      "megamitee": 1,
-      "radiodemon": 1
+      "megamitee": 2,
+      "ohhnoss": 1
     },
     "ohhnosSad": {
       "megamitee": 1
     },
-    "ohhnosSus": {
-      "Absolute_Stratos": 2
+    "ohhnosPats": {
+      "SirPieTTV": 1
     }
   },
   "30d": {
     "ohhnosPat": {
-      "ohhnoss": 100,
+      "ohhnoss": 101,
       "DarthAwesome13a": 1,
       "ShiroIBeni": 1,
       "IlaNovaStar": 1,
       "MidnightInferno": 1,
-      "Hayden_ch": 1
+      "Hayden_ch": 1,
+      "SirPieTTV": 1
     },
     "ohhnosPet": {
       "SarcasticSa1nt": 3,
+      "BudderZilla": 2,
       "plamsa_pistolier": 2,
-      "tofuMatori": 1,
-      "BudderZilla": 1,
+      "peepoangry": 2,
       "IlaNovaStar": 1
     },
-    "ohhnosSleep": {
-      "plamsa_pistolier": 3,
-      "AkanaMirai": 1,
-      "Absolute_Stratos": 1,
-      "ShiroIBeni": 1,
-      "SarcasticSa1nt": 1,
-      "megamitee": 1,
-      "advent128": 1
-    },
-    "ohhnosSus": {
-      "Absolute_Stratos": 3
-    },
     "ohhnosYay": {
-      "ohhnoss": 100,
-      "plamsa_pistolier": 2,
+      "ohhnoss": 101,
       "goldyos": 1,
+      "plamsa_pistolier": 1,
       "tofuMatori": 1,
       "Absolute_Stratos": 1,
       "megamitee": 1,
@@ -92,6 +80,7 @@
     },
     "ohhnosHeart": {
       "IlaNovaStar": 5,
+      "peepoangry": 4,
       "tofuMatori": 1,
       "avidtrout": 1,
       "plamsa_pistolier": 1,
@@ -109,6 +98,15 @@
     "ohhnosGun": {
       "radiodemon": 1
     },
+    "ohhnosSleep": {
+      "plamsa_pistolier": 2,
+      "megamitee": 2,
+      "Absolute_Stratos": 1,
+      "ShiroIBeni": 1,
+      "SarcasticSa1nt": 1,
+      "advent128": 1,
+      "peepoangry": 1
+    },
     "ohhnosCheer": {
       "YinRzu": 1,
       "goldyos": 1
@@ -118,11 +116,12 @@
     },
     "ohhnosPats": {
       "DarthAwesome13a": 1,
-      "ShiroIBeni": 1
+      "ShiroIBeni": 1,
+      "SirPieTTV": 1
     },
     "ohhnosDrink": {
+      "megamitee": 2,
       "goldyos": 1,
-      "megamitee": 1,
       "tofuMatori": 1
     },
     "ohhnosCry": {
@@ -141,12 +140,15 @@
       "Absolute_Stratos": 1
     },
     "ohhnosGasp": {
+      "megamitee": 2,
       "ohhnoss": 2,
-      "megamitee": 1,
       "radiodemon": 1
     },
     "ohhnosSad": {
       "megamitee": 1
+    },
+    "ohhnosSus": {
+      "Absolute_Stratos": 2
     }
   }
 }
