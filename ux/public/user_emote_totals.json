@@ -1,43 +1,14 @@
 {
   "7d": {
-    "ohhnosDrink": {
-      "megamitee": 1
-    },
-    "ohhnosGasp": {
-      "megamitee": 1
-    },
     "ohhnosHeart": {
-      "peepoangry": 4,
       "BudderZilla": 1,
       "MrSatanSan": 1,
-      "plamsa_pistolier": 1
-    },
-    "ohhnosPat": {
-      "ohhnoss": 30,
-      "tofuMatori": 2,
-      "SirPieTTV": 1
-    },
-    "ohhnosPats": {
-      "SirPieTTV": 1
-    },
-    "ohhnosPet": {
-      "peepoangry": 2,
-      "BudderZilla": 1,
-      "MrSatanSan": 1,
-      "tofuMatori": 1,
-      "talsett": 1
-    },
-    "ohhnosSleep": {
-      "peepoangry": 1,
-      "megamitee": 1,
-      "plamsa_pistolier": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 30,
-      "talsett": 2,
-      "megamitee": 2,
       "plamsa_pistolier": 1,
       "tofuMatori": 1
+    },
+    "ohhnosPat": {
+      "ohhnoss": 32,
+      "tofuMatori": 2
     },
     "ohhnosSad": {
       "megamitee": 1
@@ -45,6 +16,16 @@
     "ohhnosSit": {
       "ohhnoss": 2,
       "megamitee": 1
+    },
+    "ohhnosSleep": {
+      "plamsa_pistolier": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 32,
+      "talsett": 2,
+      "megamitee": 2,
+      "plamsa_pistolier": 1,
+      "tofuMatori": 1
     },
     "ohhnosCry": {
       "Absolute_Stratos": 2
@@ -55,6 +36,12 @@
     "ohhnosHappy": {
       "tofuMatori": 2,
       "megamitee": 1
+    },
+    "ohhnosPet": {
+      "MrSatanSan": 1,
+      "tofuMatori": 1,
+      "talsett": 1,
+      "BudderZilla": 1
     },
     "ohhnosSus": {
       "Absolute_Stratos": 4,
@@ -70,7 +57,7 @@
       "goldyos": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 106,
+      "ohhnoss": 116,
       "tofuMatori": 2,
       "DarthAwesome13a": 1,
       "ShiroIBeni": 1,
@@ -80,7 +67,7 @@
       "SirPieTTV": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 106,
+      "ohhnoss": 116,
       "megamitee": 3,
       "plamsa_pistolier": 2,
       "tofuMatori": 2,
@@ -102,7 +89,7 @@
       "SirPieTTV": 1
     },
     "ohhnosPet": {
-      "BudderZilla": 2,
+      "BudderZilla": 3,
       "plamsa_pistolier": 2,
       "peepoangry": 2,
       "IlaNovaStar": 1,
@@ -131,7 +118,8 @@
       "avidtrout": 1,
       "Rinz1erx": 1,
       "BudderZilla": 1,
-      "MrSatanSan": 1
+      "MrSatanSan": 1,
+      "tofuMatori": 1
     },
     "ohhnosCry": {
       "Absolute_Stratos": 3
