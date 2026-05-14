@@ -54421,6 +54421,172 @@
           ]
         }
       ]
+    },
+    "2771467735": {
+      "info": {
+        "id": "2771467735",
+        "title": "spectating, the cast 35/70 (for now!)【💢LIVE】",
+        "created": "2026-05-14T02:12:43",
+        "published": "2026-05-14T02:12:43"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 10
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": []
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 10
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 2
+            },
+            {
+              "display_name": "talsett",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
