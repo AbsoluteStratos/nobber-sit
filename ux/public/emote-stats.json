@@ -55206,6 +55206,326 @@
           ]
         }
       ]
+    },
+    "2782481170": {
+      "info": {
+        "id": "2782481170",
+        "title": "chibi and chores【💢LIVE】",
+        "created": "2026-05-27T23:01:57",
+        "published": "2026-05-27T23:01:57"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": [
+            {
+              "display_name": "YinRzu",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 10
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "IlaNovaStar",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 10
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    "2781774006": {
+      "info": {
+        "id": "2781774006",
+        "title": "minimum attention span, some art【💢LIVE】",
+        "created": "2026-05-27T00:40:21",
+        "published": "2026-05-27T00:40:21"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": [
+            {
+              "display_name": "Gigavillain21",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": [
+            {
+              "display_name": "Phat_Sparx",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
