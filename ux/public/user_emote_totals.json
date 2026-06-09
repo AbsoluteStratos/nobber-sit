@@ -9,8 +9,9 @@
       "BaconBitch": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 20,
-      "Hayden_ch": 1
+      "ohhnoss": 29,
+      "Hayden_ch": 1,
+      "plamsa_pistolier": 1
     },
     "ohhnosPeek": {
       "tofuMatori": 2,
@@ -18,16 +19,32 @@
     },
     "ohhnosSit": {
       "tofuMatori": 1,
-      "ohhnoss": 1
+      "ohhnoss": 1,
+      "Absolute_Stratos": 1
     },
     "ohhnosThink": {
       "Absolute_Stratos": 5
     },
     "ohhnosYay": {
-      "ohhnoss": 20
+      "ohhnoss": 29
     },
     "ohhnosSus": {
       "Hayden_ch": 1
+    },
+    "ohhnosDead": {
+      "Gigavillain21": 1
+    },
+    "ohhnosGasp": {
+      "radiodemon": 1
+    },
+    "ohhnosPats": {
+      "plamsa_pistolier": 1
+    },
+    "ohhnosPet": {
+      "plamsa_pistolier": 1
+    },
+    "ohhnosSleep": {
+      "Absolute_Stratos": 1
     }
   },
   "30d": {
@@ -37,7 +54,8 @@
     },
     "ohhnosDead": {
       "megamitee": 2,
-      "tofuMatori": 1
+      "tofuMatori": 1,
+      "Gigavillain21": 1
     },
     "ohhnosDrink": {
       "megamitee": 1,
@@ -45,15 +63,15 @@
     },
     "ohhnosGasp": {
       "megamitee": 3,
-      "radiodemon": 2,
+      "radiodemon": 3,
       "tofuMatori": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 109,
+      "ohhnoss": 118,
       "Hayden_ch": 2,
+      "plamsa_pistolier": 2,
       "ShiroIBeni": 1,
       "tofuMatori": 1,
-      "plamsa_pistolier": 1,
       "IlaNovaStar": 1,
       "SirPieTTV": 1
     },
@@ -63,13 +81,13 @@
     },
     "ohhnosSit": {
       "ohhnoss": 8,
-      "Absolute_Stratos": 4,
+      "Absolute_Stratos": 5,
       "radiodemon": 4,
       "plamsa_pistolier": 1,
       "tofuMatori": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 109,
+      "ohhnoss": 118,
       "megamitee": 3,
       "plamsa_pistolier": 2,
       "talsett": 1,
@@ -89,20 +107,23 @@
       "talsett": 3,
       "BudderZilla": 2,
       "tofuMatori": 1,
-      "IlaNovaStar": 1
+      "IlaNovaStar": 1,
+      "plamsa_pistolier": 1
     },
     "ohhnosSleep": {
       "plamsa_pistolier": 3,
       "tofuMatori": 2,
       "IlaNovaStar": 1,
-      "megamitee": 1
+      "megamitee": 1,
+      "Absolute_Stratos": 1
     },
     "ohhnosHug": {
       "tofuMatori": 1,
       "pedroburitto69": 1
     },
     "ohhnosPats": {
-      "tofuMatori": 1
+      "tofuMatori": 1,
+      "plamsa_pistolier": 1
     },
     "ohhnosAwe": {
       "Absolute_Stratos": 4,
