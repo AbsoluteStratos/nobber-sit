@@ -39,16 +39,8 @@
     }
   },
   "30d": {
-    "ohhnosDrink": {
-      "Hayden_ch": 1
-    },
-    "ohhnosGasp": {
-      "radiodemon": 3,
-      "megamitee": 1,
-      "tofuMatori": 1
-    },
     "ohhnosHeart": {
-      "tofuMatori": 3,
+      "tofuMatori": 2,
       "plamsa_pistolier": 2,
       "IlaNovaStar": 2,
       "pedroburitto69": 1,
@@ -56,60 +48,60 @@
       "ohhnoss": 1,
       "BaconBitch": 1
     },
-    "ohhnosPat": {
-      "ohhnoss": 115,
-      "Hayden_ch": 2,
-      "plamsa_pistolier": 2,
-      "ShiroIBeni": 1,
-      "tofuMatori": 1,
-      "IlaNovaStar": 1,
-      "SirPieTTV": 1,
-      "Phat_Sparx": 1
-    },
-    "ohhnosPet": {
-      "talsett": 3,
-      "BudderZilla": 2,
-      "tofuMatori": 1,
-      "IlaNovaStar": 1,
-      "plamsa_pistolier": 1
-    },
-    "ohhnosSad": {
-      "radiodemon": 1
-    },
-    "ohhnosSit": {
-      "ohhnoss": 7,
-      "Absolute_Stratos": 5,
-      "radiodemon": 3,
-      "plamsa_pistolier": 1,
-      "tofuMatori": 1
-    },
-    "ohhnosSleep": {
-      "tofuMatori": 3,
-      "plamsa_pistolier": 3,
-      "IlaNovaStar": 1,
-      "megamitee": 1,
-      "Absolute_Stratos": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 115,
-      "megamitee": 2,
-      "plamsa_pistolier": 2,
-      "marvincraft1": 1,
-      "tofuMatori": 1,
-      "unsponsoredgeek": 1
-    },
     "ohhnosHug": {
       "tofuMatori": 1,
       "pedroburitto69": 1
+    },
+    "ohhnosPat": {
+      "ohhnoss": 106,
+      "plamsa_pistolier": 2,
+      "tofuMatori": 1,
+      "IlaNovaStar": 1,
+      "SirPieTTV": 1,
+      "Hayden_ch": 1,
+      "Phat_Sparx": 1
     },
     "ohhnosPats": {
       "tofuMatori": 1,
       "plamsa_pistolier": 1,
       "Phat_Sparx": 1
     },
+    "ohhnosPet": {
+      "talsett": 3,
+      "tofuMatori": 1,
+      "BudderZilla": 1,
+      "IlaNovaStar": 1,
+      "plamsa_pistolier": 1
+    },
+    "ohhnosSit": {
+      "ohhnoss": 7,
+      "Absolute_Stratos": 5,
+      "radiodemon": 2,
+      "plamsa_pistolier": 1,
+      "tofuMatori": 1
+    },
+    "ohhnosSleep": {
+      "tofuMatori": 3,
+      "plamsa_pistolier": 3,
+      "megamitee": 1,
+      "Absolute_Stratos": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 106,
+      "megamitee": 2,
+      "plamsa_pistolier": 2,
+      "marvincraft1": 1,
+      "tofuMatori": 1,
+      "unsponsoredgeek": 1
+    },
     "ohhnosAwe": {
       "Absolute_Stratos": 4,
       "Gigavillain21": 1
+    },
+    "ohhnosGasp": {
+      "radiodemon": 2,
+      "megamitee": 1,
+      "tofuMatori": 1
     },
     "ohhnosHappy": {
       "plamsa_pistolier": 2,
