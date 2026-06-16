@@ -1,41 +1,29 @@
 {
   "7d": {
-    "ohhnosDead": {
-      "Gigavillain21": 1
-    },
-    "ohhnosGasp": {
-      "radiodemon": 1
-    },
-    "ohhnosPat": {
-      "ohhnoss": 16,
-      "plamsa_pistolier": 1,
-      "Phat_Sparx": 1
-    },
-    "ohhnosPats": {
-      "plamsa_pistolier": 1,
-      "Phat_Sparx": 1
-    },
-    "ohhnosPet": {
-      "plamsa_pistolier": 1
-    },
-    "ohhnosSit": {
-      "Absolute_Stratos": 2
-    },
-    "ohhnosSleep": {
-      "Absolute_Stratos": 1,
-      "tofuMatori": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 16,
-      "megamitee": 1,
-      "unsponsoredgeek": 1
-    },
     "ohhnosHappy": {
       "megamitee": 1
     },
     "ohhnosHeart": {
       "IlaNovaStar": 1,
       "plamsa_pistolier": 1
+    },
+    "ohhnosPat": {
+      "ohhnoss": 7,
+      "Phat_Sparx": 1
+    },
+    "ohhnosPats": {
+      "Phat_Sparx": 1
+    },
+    "ohhnosSit": {
+      "Absolute_Stratos": 1
+    },
+    "ohhnosSleep": {
+      "tofuMatori": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 7,
+      "megamitee": 1,
+      "unsponsoredgeek": 1
     }
   },
   "30d": {
