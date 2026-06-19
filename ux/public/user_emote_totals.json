@@ -1,46 +1,24 @@
 {
   "7d": {
-    "ohhnosHappy": {
-      "megamitee": 1
-    },
-    "ohhnosHeart": {
-      "IlaNovaStar": 1,
-      "plamsa_pistolier": 1,
-      "MrSatanSan": 1
-    },
-    "ohhnosPat": {
-      "ohhnoss": 14,
-      "tofuMatori": 2,
-      "Phat_Sparx": 1
-    },
-    "ohhnosPats": {
-      "tofuMatori": 2,
-      "Phat_Sparx": 1
-    },
-    "ohhnosSit": {
-      "Absolute_Stratos": 1
-    },
-    "ohhnosSleep": {
-      "tofuMatori": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 14,
-      "plamsa_pistolier": 2,
-      "megamitee": 1,
-      "unsponsoredgeek": 1,
-      "avidtrout": 1
-    },
     "ohhnosGasp": {
-      "radiodemon": 3,
+      "radiodemon": 4,
       "tofuMatori": 1
     },
     "ohhnosHug": {
       "radiodemon": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 16,
+      "tofuMatori": 2
+    },
+    "ohhnosPats": {
+      "tofuMatori": 2
+    },
     "ohhnosPet": {
       "tofuMatori": 3,
       "BudderZilla": 1,
-      "avidtrout": 1
+      "avidtrout": 1,
+      "MrSatanSan": 1
     },
     "ohhnosSus": {
       "tofuMatori": 1,
@@ -48,6 +26,14 @@
     },
     "ohhnosThink": {
       "Absolute_Stratos": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 16,
+      "plamsa_pistolier": 2,
+      "avidtrout": 1
+    },
+    "ohhnosHeart": {
+      "MrSatanSan": 2
     },
     "ohhnosCry": {
       "radiodemon": 1
@@ -59,7 +45,7 @@
       "Gigavillain21": 1
     },
     "ohhnosGasp": {
-      "radiodemon": 5,
+      "radiodemon": 6,
       "tofuMatori": 2,
       "megamitee": 1
     },
@@ -68,7 +54,7 @@
       "megamitee": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 97,
+      "ohhnoss": 106,
       "plamsa_pistolier": 2,
       "tofuMatori": 2,
       "IlaNovaStar": 1,
@@ -82,7 +68,8 @@
       "talsett": 1,
       "IlaNovaStar": 1,
       "plamsa_pistolier": 1,
-      "avidtrout": 1
+      "avidtrout": 1,
+      "MrSatanSan": 1
     },
     "ohhnosSit": {
       "ohhnoss": 7,
@@ -98,7 +85,7 @@
       "Absolute_Stratos": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 97,
+      "ohhnoss": 106,
       "plamsa_pistolier": 4,
       "tofuMatori": 1,
       "megamitee": 1,
@@ -108,11 +95,11 @@
     "ohhnosHeart": {
       "plamsa_pistolier": 2,
       "IlaNovaStar": 2,
+      "MrSatanSan": 2,
       "pedroburitto69": 1,
       "SarcasticSa1nt": 1,
       "ohhnoss": 1,
-      "BaconBitch": 1,
-      "MrSatanSan": 1
+      "BaconBitch": 1
     },
     "ohhnosHug": {
       "pedroburitto69": 1,
