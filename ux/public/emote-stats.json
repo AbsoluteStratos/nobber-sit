@@ -57692,6 +57692,146 @@
           ]
         }
       ]
+    },
+    "2808611464": {
+      "info": {
+        "id": "2808611464",
+        "title": "lore writing time for poke dnd 【💢LIVE】",
+        "created": "2026-06-30T02:10:34",
+        "published": "2026-06-30T02:10:34"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": []
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": [
+            {
+              "display_name": "IlaNovaStar",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": [
+            {
+              "display_name": "IlaNovaStar",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": []
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "IlaNovaStar",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 6
+            },
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
