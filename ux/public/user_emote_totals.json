@@ -1,32 +1,16 @@
 {
   "7d": {
-    "ohhnosDead": {
-      "Absolute_Stratos": 2,
-      "megamitee": 1
-    },
-    "ohhnosGasp": {
-      "radiodemon": 1,
-      "megamitee": 1
-    },
-    "ohhnosPat": {
-      "ohhnoss": 37,
-      "radiodemon": 3,
-      "tofuMatori": 3,
-      "IlaNovaStar": 1
-    },
-    "ohhnosThink": {
-      "Absolute_Stratos": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 37,
-      "tofuMatori": 4,
-      "plamsa_pistolier": 3,
-      "SarcasticSa1nt": 1,
-      "Phat_Sparx": 1,
-      "megamitee": 1
-    },
     "ohhnosCheer": {
       "megamitee": 1
+    },
+    "ohhnosDead": {
+      "Absolute_Stratos": 1,
+      "megamitee": 1,
+      "Phat_Sparx": 1
+    },
+    "ohhnosGasp": {
+      "megamitee": 1,
+      "tofuMatori": 1
     },
     "ohhnosGive": {
       "radiodemon": 1,
@@ -35,6 +19,12 @@
     "ohhnosHug": {
       "plamsa_pistolier": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 39,
+      "tofuMatori": 3,
+      "IlaNovaStar": 1,
+      "radiodemon": 1
+    },
     "ohhnosPats": {
       "tofuMatori": 1
     },
@@ -42,6 +32,14 @@
       "plamsa_pistolier": 3,
       "SirPieTTV": 1,
       "SarcasticSa1nt": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 39,
+      "tofuMatori": 6,
+      "plamsa_pistolier": 2,
+      "SarcasticSa1nt": 1,
+      "Phat_Sparx": 1,
+      "megamitee": 1
     },
     "ohhnosDrink": {
       "tofuMatori": 1
@@ -54,7 +52,7 @@
       "IlaNovaStar": 1
     },
     "ohhnosHeart": {
-      "tofuMatori": 2
+      "tofuMatori": 4
     },
     "ohhnosPet": {
       "SarcasticSa1nt": 3
@@ -65,8 +63,8 @@
       "Absolute_Stratos": 1
     },
     "ohhnosHeart": {
+      "tofuMatori": 4,
       "MrSatanSan": 2,
-      "tofuMatori": 2,
       "SarcasticSa1nt": 1,
       "ohhnoss": 1,
       "BaconBitch": 1,
@@ -74,7 +72,7 @@
       "plamsa_pistolier": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 103,
+      "ohhnoss": 110,
       "tofuMatori": 5,
       "radiodemon": 4,
       "Hayden_ch": 1,
@@ -97,9 +95,9 @@
       "Absolute_Stratos": 7
     },
     "ohhnosYay": {
-      "ohhnoss": 103,
+      "ohhnoss": 110,
       "plamsa_pistolier": 6,
-      "tofuMatori": 4,
+      "tofuMatori": 6,
       "megamitee": 2,
       "unsponsoredgeek": 1,
       "avidtrout": 1,
@@ -114,12 +112,13 @@
     "ohhnosDead": {
       "Absolute_Stratos": 2,
       "Gigavillain21": 1,
-      "megamitee": 1
+      "megamitee": 1,
+      "Phat_Sparx": 1
     },
     "ohhnosGasp": {
       "radiodemon": 6,
       "megamitee": 3,
-      "tofuMatori": 1
+      "tofuMatori": 2
     },
     "ohhnosPats": {
       "tofuMatori": 3,
