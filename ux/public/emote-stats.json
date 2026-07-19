@@ -59175,6 +59175,180 @@
           ]
         }
       ]
+    },
+    "2823425709": {
+      "info": {
+        "id": "2823425709",
+        "title": "just a chibi day 【💢LIVE】",
+        "created": "2026-07-19T00:13:00",
+        "published": "2026-07-19T00:13:00"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": []
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": []
+        },
+        {
+          "name": "ohhnosDead",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": []
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": [
+            {
+              "display_name": "megamitee",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "SirPieTTV",
+              "use_index": 1
+            },
+            {
+              "display_name": "BudderZilla",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 11
+            },
+            {
+              "display_name": "tofuMatori",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": []
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": []
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": [
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 4
+            }
+          ]
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 11
+            },
+            {
+              "display_name": "plamsa_pistolier",
+              "use_index": 1
+            },
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            },
+            {
+              "display_name": "ougi14",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
