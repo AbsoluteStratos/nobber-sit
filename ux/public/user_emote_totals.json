@@ -1,57 +1,47 @@
 {
   "7d": {
-    "ohhnosAaa": {
-      "megamitee": 1
+    "ohhnosDead": {
+      "Absolute_Stratos": 1,
+      "IlaNovaStar": 1
     },
     "ohhnosGasp": {
-      "megamitee": 2
-    },
-    "ohhnosPat": {
-      "ohhnoss": 20,
-      "tofuMatori": 1
-    },
-    "ohhnosPeek": {
-      "tofuMatori": 1
-    },
-    "ohhnosSit": {
-      "ohhnoss": 1,
-      "Absolute_Stratos": 1
-    },
-    "ohhnosSleep": {
-      "plamsa_pistolier": 2,
-      "tofuMatori": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 20,
-      "plamsa_pistolier": 1,
-      "radiodemon": 1,
-      "ougi14": 1
-    },
-    "ohhnosDead": {
-      "Absolute_Stratos": 1
+      "megamitee": 1
     },
     "ohhnosHeart": {
+      "SirPieTTV": 2,
       "tofuMatori": 1,
       "plamsa_pistolier": 1,
-      "SirPieTTV": 1,
       "BudderZilla": 1
     },
     "ohhnosHug": {
       "plamsa_pistolier": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 21,
+      "tofuMatori": 1
+    },
+    "ohhnosSleep": {
+      "plamsa_pistolier": 2
+    },
     "ohhnosThink": {
       "Absolute_Stratos": 4
+    },
+    "ohhnosYay": {
+      "ohhnoss": 21,
+      "plamsa_pistolier": 1,
+      "radiodemon": 1,
+      "ougi14": 1
     }
   },
   "30d": {
     "ohhnosPat": {
-      "ohhnoss": 107,
+      "ohhnoss": 115,
       "tofuMatori": 6,
       "radiodemon": 3,
       "IlaNovaStar": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 107,
+      "ohhnoss": 115,
       "plamsa_pistolier": 7,
       "tofuMatori": 6,
       "radiodemon": 2,
@@ -64,7 +54,8 @@
     "ohhnosDead": {
       "Absolute_Stratos": 3,
       "Phat_Sparx": 2,
-      "megamitee": 1
+      "megamitee": 1,
+      "IlaNovaStar": 1
     },
     "ohhnosGasp": {
       "megamitee": 3,
@@ -111,9 +102,9 @@
     },
     "ohhnosHeart": {
       "tofuMatori": 7,
+      "SirPieTTV": 2,
       "advent128": 1,
       "plamsa_pistolier": 1,
-      "SirPieTTV": 1,
       "BudderZilla": 1
     },
     "ohhnosPet": {
