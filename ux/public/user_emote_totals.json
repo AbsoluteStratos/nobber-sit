@@ -1,31 +1,5 @@
 {
   "7d": {
-    "ohhnosAwe": {
-      "YinRzu": 1
-    },
-    "ohhnosCry": {
-      "Absolute_Stratos": 1
-    },
-    "ohhnosHeart": {
-      "ohhnoss": 3,
-      "Phat_Sparx": 1,
-      "plamsa_pistolier": 1
-    },
-    "ohhnosPat": {
-      "ohhnoss": 19
-    },
-    "ohhnosSit": {
-      "megamitee": 1,
-      "IlaNovaStar": 1
-    },
-    "ohhnosSus": {
-      "Absolute_Stratos": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 19,
-      "STSBrown": 1,
-      "megamitee": 1
-    },
     "ohhnosDead": {
       "Phat_Sparx": 1,
       "megamitee": 1
@@ -33,6 +7,16 @@
     "ohhnosGasp": {
       "megamitee": 2,
       "ohhnoss": 1
+    },
+    "ohhnosHeart": {
+      "ohhnoss": 3
+    },
+    "ohhnosPat": {
+      "ohhnoss": 15
+    },
+    "ohhnosYay": {
+      "ohhnoss": 15,
+      "megamitee": 1
     },
     "ohhnosCheer": {
       "megamitee": 1
