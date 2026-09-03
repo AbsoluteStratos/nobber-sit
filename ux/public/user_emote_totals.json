@@ -1,26 +1,25 @@
 {
   "7d": {
-    "ohhnosPat": {
-      "ohhnoss": 17,
-      "IlaNovaStar": 1
-    },
-    "ohhnosPet": {
-      "talsett": 3,
-      "BudderZilla": 1,
-      "MrSatanSan": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 17,
-      "talsett": 1
-    },
     "ohhnosAwe": {
       "Absolute_Stratos": 1
     },
     "ohhnosCheer": {
       "radiodemon": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 13,
+      "IlaNovaStar": 1
+    },
+    "ohhnosPet": {
+      "talsett": 2,
+      "BudderZilla": 1,
+      "MrSatanSan": 1
+    },
     "ohhnosSus": {
       "Absolute_Stratos": 2
+    },
+    "ohhnosYay": {
+      "ohhnoss": 13
     },
     "ohhnosHug": {
       "MrSatanSan": 1
