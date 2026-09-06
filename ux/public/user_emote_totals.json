@@ -29,21 +29,6 @@
     }
   },
   "30d": {
-    "ohhnosPat": {
-      "ohhnoss": 65,
-      "tofuMatori": 1,
-      "IlaNovaStar": 1
-    },
-    "ohhnosPeek": {
-      "tofuMatori": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 65,
-      "STSBrown": 1,
-      "megamitee": 1,
-      "talsett": 1,
-      "Phat_Sparx": 1
-    },
     "ohhnosAwe": {
       "YinRzu": 1,
       "Absolute_Stratos": 1
@@ -59,12 +44,23 @@
       "akirakik1": 1,
       "xddEllie": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 59,
+      "IlaNovaStar": 1
+    },
     "ohhnosSit": {
       "megamitee": 1,
       "IlaNovaStar": 1
     },
     "ohhnosSus": {
       "Absolute_Stratos": 3
+    },
+    "ohhnosYay": {
+      "ohhnoss": 59,
+      "STSBrown": 1,
+      "megamitee": 1,
+      "talsett": 1,
+      "Phat_Sparx": 1
     },
     "ohhnosDead": {
       "Phat_Sparx": 1,
