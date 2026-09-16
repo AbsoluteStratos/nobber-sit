@@ -33,11 +33,11 @@
     "ohhnosHeart": {
       "advent128": 5,
       "plamsa_pistolier": 4,
+      "avidtrout": 2,
       "ShiroIBeni": 1,
       "BudderZilla": 1,
       "lagiahope": 1,
       "radiodemon": 1,
-      "avidtrout": 1,
       "morphicevt": 1,
       "kenta_marek": 1
     },
@@ -48,7 +48,7 @@
       "tofuMatori": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 34,
+      "ohhnoss": 42,
       "plamsa_pistolier": 5,
       "radiodemon": 2,
       "hearties_": 1
@@ -84,9 +84,9 @@
       "megamitee": 2
     },
     "ohhnosYay": {
-      "ohhnoss": 35,
+      "ohhnoss": 43,
+      "plamsa_pistolier": 6,
       "megamitee": 5,
-      "plamsa_pistolier": 5,
       "leverage45": 1,
       "kenta_marek": 1
     },
@@ -116,6 +116,7 @@
       "plamsa_pistolier": 5,
       "advent128": 5,
       "ohhnoss": 3,
+      "avidtrout": 2,
       "Phat_Sparx": 1,
       "akirakik1": 1,
       "xddEllie": 1,
@@ -123,12 +124,11 @@
       "BudderZilla": 1,
       "lagiahope": 1,
       "radiodemon": 1,
-      "avidtrout": 1,
       "morphicevt": 1,
       "kenta_marek": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 87,
+      "ohhnoss": 95,
       "plamsa_pistolier": 5,
       "radiodemon": 2,
       "IlaNovaStar": 1,
@@ -144,9 +144,9 @@
       "megamitee": 2
     },
     "ohhnosYay": {
-      "ohhnoss": 88,
+      "ohhnoss": 96,
       "megamitee": 6,
-      "plamsa_pistolier": 5,
+      "plamsa_pistolier": 6,
       "STSBrown": 1,
       "talsett": 1,
       "Phat_Sparx": 1,
