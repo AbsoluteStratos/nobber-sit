@@ -66150,6 +66150,169 @@
           ]
         }
       ]
+    },
+    "2905593773": {
+      "info": {
+        "id": "2905593773",
+        "title": "aaa aaaaa its chibi and art【💢LIVE】",
+        "created": "2026-10-20T01:58:42",
+        "published": "2026-10-20T01:58:42"
+      },
+      "emotes": [
+        {
+          "name": "ohhnosAaa",
+          "users": []
+        },
+        {
+          "name": "ohhnosAwe",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosCheer",
+          "users": []
+        },
+        {
+          "name": "ohhnosCry",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDead",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 2
+            }
+          ]
+        },
+        {
+          "name": "ohhnosDrink",
+          "users": [
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosGasp",
+          "users": []
+        },
+        {
+          "name": "ohhnosGive",
+          "users": []
+        },
+        {
+          "name": "ohhnosGun",
+          "users": []
+        },
+        {
+          "name": "ohhnosHappy",
+          "users": []
+        },
+        {
+          "name": "ohhnosHeart",
+          "users": [
+            {
+              "display_name": "BudderZilla",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosHug",
+          "users": []
+        },
+        {
+          "name": "ohhnosMad",
+          "users": []
+        },
+        {
+          "name": "ohhnosPat",
+          "users": [
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPats",
+          "users": []
+        },
+        {
+          "name": "ohhnosPeek",
+          "users": []
+        },
+        {
+          "name": "ohhnosPet",
+          "users": [
+            {
+              "display_name": "BudderZilla",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosPout",
+          "users": []
+        },
+        {
+          "name": "ohhnosSad",
+          "users": []
+        },
+        {
+          "name": "ohhnosSit",
+          "users": [
+            {
+              "display_name": "radiodemon",
+              "use_index": 1
+            },
+            {
+              "display_name": "Absolute_Stratos",
+              "use_index": 1
+            }
+          ]
+        },
+        {
+          "name": "ohhnosSleep",
+          "users": []
+        },
+        {
+          "name": "ohhnosSus",
+          "users": []
+        },
+        {
+          "name": "ohhnosThink",
+          "users": []
+        },
+        {
+          "name": "ohhnosYay",
+          "users": [
+            {
+              "display_name": "Bellthasar",
+              "use_index": 1
+            },
+            {
+              "display_name": "ohhnoss",
+              "use_index": 5
+            },
+            {
+              "display_name": "lagiahope",
+              "use_index": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
