@@ -1,13 +1,5 @@
 {
   "7d": {
-    "ohhnosPat": {
-      "ohhnoss": 33
-    },
-    "ohhnosYay": {
-      "ohhnoss": 33,
-      "lagiahope": 2,
-      "Bellthasar": 1
-    },
     "ohhnosCry": {
       "Absolute_Stratos": 2
     },
@@ -26,6 +18,9 @@
     "ohhnosHug": {
       "MrSatanSan": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 26
+    },
     "ohhnosPet": {
       "peepoangry": 1,
       "avidtrout": 1,
@@ -42,6 +37,11 @@
       "avidtrout": 1,
       "MrSatanSan": 1,
       "derpyy_lesbian": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 26,
+      "lagiahope": 2,
+      "Bellthasar": 1
     },
     "ohhnosAwe": {
       "Absolute_Stratos": 1
