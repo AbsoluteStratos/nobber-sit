@@ -1,59 +1,66 @@
 {
   "7d": {
     "ohhnosHeart": {
-      "derpyy_lesbian": 2,
       "advent128": 1,
       "Xvli": 1
     },
-    "ohhnosPat": {
-      "ohhnoss": 15
+    "ohhnosHug": {
+      "Xvli": 1,
+      "radiodemon": 1
     },
-    "ohhnosPet": {
-      "SarcasticSa1nt": 1,
-      "advent128": 1
+    "ohhnosPat": {
+      "ohhnoss": 13
     },
     "ohhnosSleep": {
-      "derpyy_lesbian": 1,
-      "plamsa_pistolier": 1
-    },
-    "ohhnosThink": {
-      "YinRzu": 1
+      "plamsa_pistolier": 1,
+      "tofuMatori": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 15,
-      "lagiahope": 1,
-      "Xvli": 1
+      "ohhnoss": 13,
+      "Xvli": 1,
+      "avidtrout": 1
     },
-    "ohhnosHug": {
-      "Xvli": 1
+    "ohhnosAwe": {
+      "Absolute_Stratos": 2
+    },
+    "ohhnosCheer": {
+      "Absolute_Stratos": 1,
+      "megamitee": 1
+    },
+    "ohhnosGasp": {
+      "Absolute_Stratos": 1
+    },
+    "ohhnosPet": {
+      "BudderZilla": 1
     }
   },
   "30d": {
-    "ohhnosPat": {
-      "ohhnoss": 78
-    },
-    "ohhnosSit": {
-      "ohhnoss": 2,
-      "Absolute_Stratos": 2,
-      "lagiahope": 1,
-      "radiodemon": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 78,
-      "lagiahope": 2,
-      "Bellthasar": 1,
-      "Xvli": 1
-    },
     "ohhnosMad": {
       "lagiahope": 2
     },
+    "ohhnosPat": {
+      "ohhnoss": 82
+    },
     "ohhnosPet": {
+      "BudderZilla": 2,
       "Yokai_Divine": 1,
       "peepoangry": 1,
       "avidtrout": 1,
-      "BudderZilla": 1,
       "SarcasticSa1nt": 1,
       "advent128": 1
+    },
+    "ohhnosSit": {
+      "Absolute_Stratos": 2,
+      "lagiahope": 1,
+      "ohhnoss": 1,
+      "radiodemon": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 82,
+      "lagiahope": 2,
+      "Bellthasar": 1,
+      "Xvli": 1,
+      "avidtrout": 1
     },
     "ohhnosCry": {
       "Absolute_Stratos": 3,
@@ -88,20 +95,27 @@
       "avidtrout": 1,
       "MrSatanSan": 1,
       "derpyy_lesbian": 1,
-      "plamsa_pistolier": 1
+      "plamsa_pistolier": 1,
+      "tofuMatori": 1
     },
     "ohhnosDead": {
       "Absolute_Stratos": 3
     },
     "ohhnosGasp": {
-      "megamitee": 1
+      "megamitee": 1,
+      "Absolute_Stratos": 1
     },
     "ohhnosHug": {
       "MrSatanSan": 1,
-      "Xvli": 1
+      "Xvli": 1,
+      "radiodemon": 1
     },
     "ohhnosAwe": {
-      "Absolute_Stratos": 1
+      "Absolute_Stratos": 3
+    },
+    "ohhnosCheer": {
+      "Absolute_Stratos": 1,
+      "megamitee": 1
     }
   }
 }
