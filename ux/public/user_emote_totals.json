@@ -9,14 +9,14 @@
       "radiodemon": 1
     },
     "ohhnosPat": {
-      "ohhnoss": 19
+      "ohhnoss": 23
     },
     "ohhnosSleep": {
       "plamsa_pistolier": 1,
       "tofuMatori": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 19,
+      "ohhnoss": 23,
       "Xvli": 1,
       "avidtrout": 1
     },
@@ -32,38 +32,17 @@
     },
     "ohhnosPet": {
       "BudderZilla": 1
+    },
+    "ohhnosCry": {
+      "Absolute_Stratos": 1
+    },
+    "ohhnosDead": {
+      "Absolute_Stratos": 1
     }
   },
   "30d": {
-    "ohhnosMad": {
-      "lagiahope": 2
-    },
-    "ohhnosPat": {
-      "ohhnoss": 88
-    },
-    "ohhnosPet": {
-      "BudderZilla": 2,
-      "Yokai_Divine": 1,
-      "peepoangry": 1,
-      "avidtrout": 1,
-      "SarcasticSa1nt": 1,
-      "advent128": 1
-    },
-    "ohhnosSit": {
-      "Absolute_Stratos": 2,
-      "lagiahope": 1,
-      "ohhnoss": 1,
-      "radiodemon": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 88,
-      "lagiahope": 2,
-      "Bellthasar": 1,
-      "Xvli": 1,
-      "avidtrout": 1
-    },
     "ohhnosCry": {
-      "Absolute_Stratos": 3,
+      "Absolute_Stratos": 4,
       "lagiahope": 1
     },
     "ohhnosDrink": {
@@ -80,12 +59,25 @@
       "BudderZilla": 1,
       "Xvli": 1
     },
+    "ohhnosMad": {
+      "lagiahope": 1
+    },
+    "ohhnosPat": {
+      "ohhnoss": 90
+    },
     "ohhnosSad": {
       "lagiahope": 2
     },
     "ohhnosThink": {
       "Absolute_Stratos": 1,
       "YinRzu": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 90,
+      "lagiahope": 2,
+      "Bellthasar": 1,
+      "Xvli": 1,
+      "avidtrout": 1
     },
     "ohhnosHappy": {
       "SirPieTTV": 1
@@ -99,7 +91,7 @@
       "tofuMatori": 1
     },
     "ohhnosDead": {
-      "Absolute_Stratos": 3
+      "Absolute_Stratos": 4
     },
     "ohhnosGasp": {
       "megamitee": 1,
@@ -108,6 +100,18 @@
     "ohhnosHug": {
       "MrSatanSan": 1,
       "Xvli": 1,
+      "radiodemon": 1
+    },
+    "ohhnosPet": {
+      "BudderZilla": 2,
+      "peepoangry": 1,
+      "avidtrout": 1,
+      "SarcasticSa1nt": 1,
+      "advent128": 1
+    },
+    "ohhnosSit": {
+      "Absolute_Stratos": 2,
+      "ohhnoss": 1,
       "radiodemon": 1
     },
     "ohhnosAwe": {
