@@ -34,46 +34,26 @@
     }
   },
   "30d": {
-    "ohhnosCry": {
-      "Absolute_Stratos": 4,
-      "lagiahope": 1
-    },
-    "ohhnosDrink": {
-      "Absolute_Stratos": 2
+    "ohhnosHappy": {
+      "SirPieTTV": 1
     },
     "ohhnosHeart": {
       "advent128": 2,
       "derpyy_lesbian": 2,
-      "goldyos": 1,
-      "plamsa_pistolier": 1,
-      "BeefedIt": 1,
       "avidtrout": 1,
       "MrSatanSan": 1,
       "BudderZilla": 1,
       "Xvli": 1
     },
-    "ohhnosMad": {
-      "lagiahope": 1
-    },
     "ohhnosPat": {
-      "ohhnoss": 90
-    },
-    "ohhnosSad": {
-      "lagiahope": 2
-    },
-    "ohhnosThink": {
-      "Absolute_Stratos": 1,
-      "YinRzu": 1
+      "ohhnoss": 82
     },
     "ohhnosYay": {
-      "ohhnoss": 90,
+      "ohhnoss": 82,
       "lagiahope": 2,
       "Bellthasar": 1,
       "Xvli": 1,
       "avidtrout": 1
-    },
-    "ohhnosHappy": {
-      "SirPieTTV": 1
     },
     "ohhnosSleep": {
       "SarcasticSa1nt": 1,
@@ -82,6 +62,9 @@
       "derpyy_lesbian": 1,
       "plamsa_pistolier": 1,
       "tofuMatori": 1
+    },
+    "ohhnosCry": {
+      "Absolute_Stratos": 3
     },
     "ohhnosDead": {
       "Absolute_Stratos": 4
@@ -109,6 +92,12 @@
     },
     "ohhnosAwe": {
       "Absolute_Stratos": 3
+    },
+    "ohhnosDrink": {
+      "Absolute_Stratos": 1
+    },
+    "ohhnosThink": {
+      "YinRzu": 1
     },
     "ohhnosCheer": {
       "Absolute_Stratos": 1,
