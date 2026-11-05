@@ -1,59 +1,34 @@
 {
   "7d": {
-    "ohhnosAwe": {
-      "Absolute_Stratos": 2
-    },
-    "ohhnosCheer": {
-      "Absolute_Stratos": 1,
-      "megamitee": 1
-    },
-    "ohhnosGasp": {
-      "Absolute_Stratos": 1
-    },
-    "ohhnosHug": {
-      "radiodemon": 1
-    },
     "ohhnosPat": {
-      "ohhnoss": 18
-    },
-    "ohhnosPet": {
-      "BudderZilla": 1
-    },
-    "ohhnosSleep": {
-      "tofuMatori": 1
+      "ohhnoss": 17
     },
     "ohhnosYay": {
-      "ohhnoss": 18,
-      "avidtrout": 1
+      "ohhnoss": 17,
+      "marvincraft1": 1
     },
     "ohhnosCry": {
-      "Absolute_Stratos": 1
+      "Absolute_Stratos": 2
     },
     "ohhnosDead": {
+      "Absolute_Stratos": 2
+    },
+    "ohhnosHeart": {
+      "marvincraft1": 1
+    },
+    "ohhnosPet": {
+      "marvincraft1": 1
+    },
+    "ohhnosSleep": {
+      "marvincraft1": 1
+    },
+    "ohhnosThink": {
       "Absolute_Stratos": 1
     }
   },
   "30d": {
-    "ohhnosHappy": {
-      "SirPieTTV": 1
-    },
-    "ohhnosHeart": {
-      "advent128": 2,
-      "derpyy_lesbian": 2,
-      "avidtrout": 1,
-      "MrSatanSan": 1,
-      "BudderZilla": 1,
-      "Xvli": 1
-    },
     "ohhnosPat": {
-      "ohhnoss": 82
-    },
-    "ohhnosYay": {
-      "ohhnoss": 82,
-      "lagiahope": 2,
-      "Bellthasar": 1,
-      "Xvli": 1,
-      "avidtrout": 1
+      "ohhnoss": 80
     },
     "ohhnosSleep": {
       "SarcasticSa1nt": 1,
@@ -61,17 +36,35 @@
       "MrSatanSan": 1,
       "derpyy_lesbian": 1,
       "plamsa_pistolier": 1,
-      "tofuMatori": 1
+      "tofuMatori": 1,
+      "marvincraft1": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 80,
+      "lagiahope": 2,
+      "Bellthasar": 1,
+      "Xvli": 1,
+      "avidtrout": 1,
+      "marvincraft1": 1
     },
     "ohhnosCry": {
-      "Absolute_Stratos": 3
+      "Absolute_Stratos": 4
     },
     "ohhnosDead": {
-      "Absolute_Stratos": 4
+      "Absolute_Stratos": 5
     },
     "ohhnosGasp": {
       "megamitee": 1,
       "Absolute_Stratos": 1
+    },
+    "ohhnosHeart": {
+      "derpyy_lesbian": 2,
+      "avidtrout": 1,
+      "MrSatanSan": 1,
+      "BudderZilla": 1,
+      "advent128": 1,
+      "Xvli": 1,
+      "marvincraft1": 1
     },
     "ohhnosHug": {
       "MrSatanSan": 1,
@@ -83,7 +76,8 @@
       "peepoangry": 1,
       "avidtrout": 1,
       "SarcasticSa1nt": 1,
-      "advent128": 1
+      "advent128": 1,
+      "marvincraft1": 1
     },
     "ohhnosSit": {
       "Absolute_Stratos": 2,
@@ -97,7 +91,8 @@
       "Absolute_Stratos": 1
     },
     "ohhnosThink": {
-      "YinRzu": 1
+      "YinRzu": 1,
+      "Absolute_Stratos": 1
     },
     "ohhnosCheer": {
       "Absolute_Stratos": 1,
