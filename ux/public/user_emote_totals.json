@@ -1,29 +1,26 @@
 {
   "7d": {
-    "ohhnosPat": {
-      "ohhnoss": 12,
-      "radiodemon": 1
-    },
-    "ohhnosPet": {
-      "avidtrout": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 12
-    },
     "ohhnosDead": {
       "megamitee": 1
     },
     "ohhnosGasp": {
       "megamitee": 1
+    },
+    "ohhnosPat": {
+      "ohhnoss": 13,
+      "radiodemon": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 13
     }
   },
   "30d": {
     "ohhnosPat": {
-      "ohhnoss": 75,
+      "ohhnoss": 80,
       "radiodemon": 1
     },
     "ohhnosYay": {
-      "ohhnoss": 75,
+      "ohhnoss": 80,
       "lagiahope": 2,
       "Bellthasar": 1,
       "Xvli": 1,
