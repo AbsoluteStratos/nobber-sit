@@ -1,32 +1,13 @@
 {
   "7d": {
-    "ohhnosDead": {
-      "megamitee": 1
-    },
-    "ohhnosGasp": {
-      "megamitee": 1
-    },
     "ohhnosPat": {
-      "ohhnoss": 13,
-      "radiodemon": 1
+      "ohhnoss": 5
     },
     "ohhnosYay": {
-      "ohhnoss": 13
+      "ohhnoss": 5
     }
   },
   "30d": {
-    "ohhnosPat": {
-      "ohhnoss": 80,
-      "radiodemon": 1
-    },
-    "ohhnosYay": {
-      "ohhnoss": 80,
-      "lagiahope": 2,
-      "Bellthasar": 1,
-      "Xvli": 1,
-      "avidtrout": 1,
-      "marvincraft1": 1
-    },
     "ohhnosCry": {
       "Absolute_Stratos": 4
     },
@@ -52,6 +33,10 @@
       "Xvli": 1,
       "radiodemon": 1
     },
+    "ohhnosPat": {
+      "ohhnoss": 73,
+      "radiodemon": 1
+    },
     "ohhnosPet": {
       "avidtrout": 2,
       "BudderZilla": 2,
@@ -71,6 +56,14 @@
       "derpyy_lesbian": 1,
       "plamsa_pistolier": 1,
       "tofuMatori": 1,
+      "marvincraft1": 1
+    },
+    "ohhnosYay": {
+      "ohhnoss": 73,
+      "lagiahope": 2,
+      "Bellthasar": 1,
+      "Xvli": 1,
+      "avidtrout": 1,
       "marvincraft1": 1
     },
     "ohhnosAwe": {
